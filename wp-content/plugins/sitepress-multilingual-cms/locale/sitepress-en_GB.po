@@ -1,0 +1,3325 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPML Multilingual CMS v2.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2012-01-07 18:48+0000\n"
+"Last-Translator: admin <admin@mail.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: ajax.php:40
+#: menu/dashboard-widget.php:8
+#: menu/languages.php:158
+#: sitepress.class.php:1596
+#@ sitepress
+msgid "default"
+msgstr ""
+
+#: ajax.php:48
+#@ sitepress
+msgid "Uncategorized"
+msgstr ""
+
+#: ajax.php:106
+#@ sitepress
+msgid "Wordpress language file (.mo) is missing. Keeping existing display language."
+msgstr ""
+
+#: ajax.php:114
+#: ajax.php:144
+#@ sitepress
+msgid "Not updated on ICanLocalize: "
+msgstr ""
+
+#: ajax.php:148
+#@ sitepress
+msgid "Your site description has been saved."
+msgstr ""
+
+#: ajax.php:157
+#@ sitepress
+msgid "Please enter an email address"
+msgstr ""
+
+#: ajax.php:168
+#, php-format
+#@ sitepress
+msgid "An account for %s has been created at ICanLocalize. This site has been transferred to the new account."
+msgstr ""
+
+#: ajax.php:170
+#, php-format
+#@ sitepress
+msgid "This site has been transferred to the ICanLocalize account of %s."
+msgstr ""
+
+#: ajax.php:268
+#@ sitepress
+msgid "At least one of the language switcher style options needs to be checked"
+msgstr ""
+
+#: ajax.php:332
+#: menu/languages.php:355
+#@ sitepress
+msgid "Validate on save"
+msgstr ""
+
+#: ajax.php:431
+#: inc/translation-management/translation-management.class.php:1272
+#@ sitepress
+msgid "Needs update"
+msgstr ""
+
+#: ajax.php:433
+#: inc/translation-management/translation-management.class.php:1274
+#@ sitepress
+msgid "Complete"
+msgstr ""
+
+#: ajax.php:488
+#: inc/comments-translation/functions.php:221
+#@ sitepress
+msgid "Back to translated version"
+msgstr ""
+
+#: ajax.php:559
+#@ sitepress
+msgid "View"
+msgstr ""
+
+#: ajax.php:578
+#@ sitepress
+msgid "Show 1 reminder"
+msgstr ""
+
+#: ajax.php:580
+#, php-format
+#@ sitepress
+msgid "Show %d reminders"
+msgstr ""
+
+#: ajax.php:728
+#: menu/languages.php:675
+#: sitepress.class.php:6225
+#, php-format
+#@ sitepress
+msgid "%s is currently hidden to visitors."
+msgstr ""
+
+#: ajax.php:735
+#: menu/languages.php:682
+#: sitepress.class.php:6232
+#, php-format
+#@ sitepress
+msgid "%s are currently hidden to visitors."
+msgstr ""
+
+#: ajax.php:737
+#: menu/languages.php:685
+#, php-format
+#@ sitepress
+msgid "You can enable its/their display for yourself, in your <a href=\"%s\">profile page</a>."
+msgstr ""
+
+#: ajax.php:740
+#: menu/languages.php:688
+#@ sitepress
+msgid "All languages are currently displayed."
+msgstr ""
+
+#: ajax.php:860
+#@ sitepress
+msgid "Post not found"
+msgstr ""
+
+#: ajax.php:878
+#@ wpml
+msgid "Error: No custom field"
+msgstr ""
+
+#: ajax.php:884
+#@ wpml
+msgid "Error: Please provide translation action"
+msgstr ""
+
+#: ajax.php:893
+#@ wpml
+msgid "Settings updated"
+msgstr ""
+
+#: ajax.php:896
+#@ wpml
+msgid "Error: WPML Translation Management plugin not initiated"
+msgstr ""
+
+#: ajax.php:901
+#: inc/template-functions.php:302
+#@ wpml
+msgid "Error: Please activate WPML Translation Management plugin"
+msgstr ""
+
+#: docs/theme-integration/wpml-integration.php:32
+#@ sitepress
+msgid "This post is also available in: "
+msgstr ""
+
+#: inc/affiliate-info.php:10
+#@ sitepress
+msgid "Affiliate"
+msgstr ""
+
+#: inc/affiliate-info.php:10
+#@ sitepress
+msgid "Affiliates"
+msgstr ""
+
+#: inc/comments-translation/functions.php:155
+#: inc/template-functions.php:349
+#: menu/_custom_types_translation.php:65
+#: menu/_custom_types_translation.php:104
+#: menu/post-menu.php:112
+#: sitepress.class.php:3429
+#: sitepress.class.php:3472
+#@ sitepress
+#@ wpml
+msgid "Translate"
+msgstr ""
+
+#: inc/comments-translation/functions.php:174
+#, php-format
+#@ sitepress
+msgid "Translate from %s"
+msgstr ""
+
+#: inc/comments-translation/functions.php:223
+#, php-format
+#@ sitepress
+msgid "Original language: %s"
+msgstr ""
+
+#: inc/comments-translation/functions.php:398
+#, php-format
+#@ sitepress
+msgid "Translate from %s into %s"
+msgstr ""
+
+#: inc/comments-translation/functions.php:400
+#, php-format
+#@ sitepress
+msgid "There is no translator for this language pair. <a href=\"%s\">Details</a>."
+msgstr ""
+
+#: inc/comments-translation/functions.php:547
+#: inc/comments-translation/functions.php:666
+#, php-format
+#@ sitepress
+msgid "Machine translation failed. <a%s>retry</a>"
+msgstr ""
+
+#: inc/comments-translation/functions.php:877
+#: inc/comments-translation/functions.php:918
+#@ sitepress
+msgid "Translation in progress"
+msgstr ""
+
+#: inc/comments-translation/functions.php:879
+#: inc/comments-translation/functions.php:920
+#@ sitepress
+msgid "Translation complete"
+msgstr ""
+
+#: inc/comments-translation/functions.php:883
+#, php-format
+#@ sitepress
+msgid "Comment in %s"
+msgstr ""
+
+#: inc/functions-network.php:17
+#: sitepress.class.php:934
+#: sitepress.class.php:958
+#@ sitepress
+msgid "WPML"
+msgstr ""
+
+#: inc/functions-network.php:20
+#@ sitepress
+msgid "Network settings"
+msgstr ""
+
+#: inc/functions-troubleshooting.php:88
+#@ sitepress
+msgid "Error writing query:"
+msgstr ""
+
+#: inc/functions.php:10
+#@ sitepress
+msgid "Configure"
+msgstr ""
+
+#: inc/functions.php:109
+#, php-format
+#@ default
+msgid "This translation is currently in the trash. You need to either <a href=\"%s\">delete it permanently</a> or <a href=\"%s\">restore</a> it in order to continue."
+msgstr ""
+
+#: inc/import-xml.php:16
+#: inc/quote/quote-get.php:81
+#@ sitepress
+msgid "Select Language"
+msgstr ""
+
+#: inc/language-switcher.php:91
+#: inc/language-switcher.php:92
+#@ sitepress
+msgid "Language Selector"
+msgstr ""
+
+#: inc/language-switcher.php:106
+#@ sitepress
+msgid "Display 'Languages' as the widget's title"
+msgstr ""
+
+#: inc/language-switcher.php:254
+#@ sitepress
+msgid "Edit the language switcher widget colors"
+msgstr ""
+
+#: inc/language-switcher.php:260
+#: inc/language-switcher.php:392
+#@ sitepress
+msgid "Normal"
+msgstr ""
+
+#: inc/language-switcher.php:261
+#: inc/language-switcher.php:393
+#@ sitepress
+msgid "Hover"
+msgstr ""
+
+#: inc/language-switcher.php:266
+#: inc/language-switcher.php:398
+#@ sitepress
+msgid "Current language font color"
+msgstr ""
+
+#: inc/language-switcher.php:281
+#: inc/language-switcher.php:413
+#@ sitepress
+msgid "Current language background color"
+msgstr ""
+
+#: inc/language-switcher.php:296
+#: inc/language-switcher.php:428
+#@ sitepress
+msgid "Other languages font color"
+msgstr ""
+
+#: inc/language-switcher.php:311
+#: inc/language-switcher.php:443
+#@ sitepress
+msgid "Other languages background color"
+msgstr ""
+
+#: inc/language-switcher.php:326
+#: inc/language-switcher.php:470
+#@ sitepress
+msgid "Border"
+msgstr ""
+
+#: inc/language-switcher.php:339
+#: inc/language-switcher.php:483
+#@ sitepress
+msgid "Presets:"
+msgstr ""
+
+#: inc/language-switcher.php:341
+#: inc/language-switcher.php:485
+#@ sitepress
+msgid "--select--"
+msgstr ""
+
+#: inc/language-switcher.php:342
+#: inc/language-switcher.php:486
+#@ sitepress
+msgid "Gray"
+msgstr ""
+
+#: inc/language-switcher.php:343
+#: inc/language-switcher.php:487
+#@ sitepress
+msgid "White"
+msgstr ""
+
+#: inc/language-switcher.php:344
+#: inc/language-switcher.php:488
+#@ sitepress
+msgid "Blue"
+msgstr ""
+
+#: inc/language-switcher.php:346
+#: inc/language-switcher.php:490
+#@ sitepress
+msgid "Are you sure? The customization you may have made will be overriden once you click 'Apply'"
+msgstr ""
+
+#: inc/language-switcher.php:349
+#, php-format
+#@ sitepress
+msgid "%s is defined in your theme. The language switcher can only be customized using the theme's CSS."
+msgstr ""
+
+#: inc/language-switcher.php:357
+#@ sitepress
+msgid "Footer language switcher style"
+msgstr ""
+
+#: inc/language-switcher.php:362
+#@ sitepress
+msgid "Show language switcher in footer"
+msgstr ""
+
+#: inc/language-switcher.php:370
+#@ sitepress
+msgid "Footer language switcher preview"
+msgstr ""
+
+#: inc/language-switcher.php:386
+#@ sitepress
+msgid "Edit the footer language switcher colors"
+msgstr ""
+
+#: inc/language-switcher.php:459
+#@ sitepress
+msgid "Background"
+msgstr ""
+
+#: inc/language-switcher.php:496
+#@ sitepress
+msgid "Show post translation links"
+msgstr ""
+
+#: inc/language-switcher.php:501
+#: sitepress.class.php:6273
+#@ sitepress
+msgid "Yes"
+msgstr ""
+
+#: inc/language-switcher.php:506
+#@ sitepress
+msgid "Position"
+msgstr ""
+
+#: inc/language-switcher.php:508
+#@ sitepress
+msgid "Above post"
+msgstr ""
+
+#: inc/language-switcher.php:512
+#@ sitepress
+msgid "Below post"
+msgstr ""
+
+#: inc/language-switcher.php:518
+#@ sitepress
+msgid "Text for alternative languages for posts"
+msgstr ""
+
+#: inc/language-switcher.php:519
+#, php-format
+#@ sitepress
+msgid "This post is also available in: %s"
+msgstr ""
+
+#: inc/language-switcher.php:524
+#@ sitepress
+msgid "Additional CSS (optional)"
+msgstr ""
+
+#: inc/language-switcher.php:542
+#: menu/language-selector.php:6
+#: sitepress.class.php:3745
+#: sitepress.class.php:4321
+#: sitepress.class.php:4683
+#: sitepress.class.php:7307
+#@ sitepress
+msgid "All languages"
+msgstr ""
+
+#: inc/language-switcher.php:761
+#: sitepress.class.php:940
+#: sitepress.class.php:961
+#@ sitepress
+msgid "Languages"
+msgstr ""
+
+#: inc/not-compatible-plugins.php:29
+#@ sitepress
+msgid "WPML cannot be activated together with these older plugins:"
+msgstr ""
+
+#: inc/not-compatible-plugins.php:35
+#@ sitepress
+msgid "WPML will be deactivated"
+msgstr ""
+
+#: inc/not-compatible-plugins.php:55
+#@ sitepress
+msgid "These plugins are known to have compatibiliy issues with WPML:"
+msgstr ""
+
+#: inc/not-compatible-plugins.php:67
+#, php-format
+#@ sitepress
+msgid "You are using plugins that are incompatible with WPML - <a href=\"%s\">see details</a>."
+msgstr ""
+
+#: inc/php-version-check.php:23
+#@ sitepress
+msgid "WPML cannot be activated because your version of PHP is too old. To run correctly, you must have PHP5 installed.<br /> We recommend that you contact your hosting company and request them to switch you to PHP5."
+msgstr ""
+
+#: inc/php-version-check.php:53
+#@ sitepress
+msgid "Close"
+msgstr ""
+
+#: inc/quote/quote-get-submit.php:103
+#: inc/quote/quote-get-submit.php:132
+#: sitepress.class.php:2076
+#@ sitepress
+msgid "An unknown error has occurred when communicating with the ICanLocalize server. Please try again."
+msgstr ""
+
+#: inc/quote/quote-get.php:77
+#@ sitepress
+msgid "Translation Languages"
+msgstr ""
+
+#: inc/quote/quote-get.php:79
+#@ sitepress
+msgid "I need translation from"
+msgstr ""
+
+#: inc/quote/quote-get.php:95
+#@ sitepress
+msgid "to these languages:"
+msgstr ""
+
+#: inc/quote/quote-get.php:110
+#: inc/quote/quote-get.php:213
+#@ sitepress
+msgid "Continue"
+msgstr ""
+
+#: inc/quote/quote-get.php:173
+#@ sitepress
+msgid "Content Types"
+msgstr ""
+
+#: inc/quote/quote-get.php:175
+#, php-format
+#@ sitepress
+msgid "Your site includes different kinds of content items. Choose which types to include in the quote. <br /><br />To get the word count of specific documents, use the %sTranslation Dashboard%s."
+msgstr ""
+
+#: inc/quote/quote-get.php:183
+#@ sitepress
+msgid "Type"
+msgstr ""
+
+#: inc/quote/quote-get.php:184
+#@ sitepress
+msgid "Number of items"
+msgstr ""
+
+#: inc/quote/quote-get.php:185
+#@ sitepress
+msgid "Number of words"
+msgstr ""
+
+#: inc/quote/quote-get.php:212
+#: inc/quote/quote-get.php:241
+#: menu/languages.php:249
+#: menu/languages.php:557
+#@ sitepress
+msgid "Back"
+msgstr ""
+
+#: inc/quote/quote-get.php:233
+#@ sitepress
+msgid "Summary"
+msgstr ""
+
+#: inc/quote/quote-get.php:234
+#@ sitepress
+msgid "You have selected the following content:"
+msgstr ""
+
+#: inc/quote/quote-get.php:242
+#@ sitepress
+msgid "Produce Quote"
+msgstr ""
+
+#: inc/quote/quote-get.php:243
+#@ sitepress
+msgid "Save for later"
+msgstr ""
+
+#: inc/sitepress-schema.php:394
+#@ sitepress
+msgid "WPML cannot create the database tables! Make sure that your mysql user has the CREATE privilege"
+msgstr ""
+
+#: inc/support.php:88
+#@ sitepress
+msgid "WPML.org subscription email"
+msgstr ""
+
+#: inc/support.php:93
+#@ sitepress
+msgid "WPML.org subscription key"
+msgstr ""
+
+#: inc/support.php:102
+#@ sitepress
+msgid "Save subscription details"
+msgstr ""
+
+#: inc/support.php:104
+#@ sitepress
+msgid "Saving. Please wait..."
+msgstr ""
+
+#: inc/support.php:110
+#@ sitepress
+msgid "Technical support for clients is available via <a target=\"_blank\" href=\"http://forum.wpml.org\">WPML forum</a>."
+msgstr ""
+
+#: inc/support.php:112
+#, php-format
+#@ sitepress
+msgid "For advanced access or to completely uninstall WPML and remove all language information, use the <a href=\"%s\">troubleshooting</a> page."
+msgstr ""
+
+#: inc/template-functions.php:216
+#@ sitepress
+msgid "Invalid object kind"
+msgstr ""
+
+#: inc/template-functions.php:219
+#@ sitepress
+msgid "Invalid object id"
+msgstr ""
+
+#: inc/template-functions.php:314
+#@ wpml
+msgid "Translation preferences"
+msgstr ""
+
+#: inc/template-functions.php:318
+#@ wpml
+msgid "Choose what to do when translating content with this field:"
+msgstr ""
+
+#: inc/template-functions.php:329
+#: menu/_custom_types_translation.php:68
+#: menu/_custom_types_translation.php:107
+#: sitepress.class.php:3430
+#@ wpml
+#@ sitepress
+msgid "Do nothing"
+msgstr ""
+
+#: inc/template-functions.php:339
+#@ wpml
+msgid "Copy from original"
+msgstr ""
+
+#: inc/template-functions.php:357
+#: menu/languages.php:165
+#: menu/languages.php:187
+#: menu/languages.php:372
+#: menu/languages.php:544
+#: menu/languages.php:602
+#: menu/languages.php:636
+#: menu/languages.php:667
+#: menu/languages.php:719
+#: menu/languages.php:772
+#: menu/languages.php:808
+#: menu/troubleshooting.php:507
+#: sitepress.class.php:3496
+#@ default
+#@ sitepress
+msgid "Apply"
+msgstr ""
+
+#: inc/template-functions.php:436
+#, php-format
+#@ sitepress
+msgid "WPML will copy this field from %s when you save this post."
+msgstr ""
+
+#: inc/template-functions.php:457
+#@ sitepress
+msgid "Missing post ID"
+msgstr ""
+
+#: inc/template-functions.php:460
+#, php-format
+#@ sitepress
+msgid "No such post for ID = %d"
+msgstr ""
+
+#: inc/translation-management/pro-translation.class.php:61
+#, php-format
+#@ sitepress
+msgid "Fetched %d translations."
+msgstr ""
+
+#: inc/translation-management/pro-translation.class.php:63
+#@ sitepress
+msgid "Manual pick up is disabled."
+msgstr ""
+
+#: inc/translation-management/pro-translation.class.php:1740
+#@ sitepress
+msgid "Minor edit - don't update translation"
+msgstr ""
+
+#: inc/translation-management/pro-translation.class.php:2052
+#@ sitepress
+msgid "never"
+msgstr ""
+
+#: inc/translation-management/pro-translation.class.php:2056
+#, php-format
+#@ sitepress
+msgid "You can check again in %s minutes."
+msgstr ""
+
+#: inc/translation-management/pro-translation.class.php:2066
+#, php-format
+#@ sitepress
+msgid "%d job(s) sent to ICanLocalize."
+msgstr ""
+
+#: inc/translation-management/pro-translation.class.php:2067
+#@ sitepress
+msgid "Get completed translations"
+msgstr ""
+
+#: inc/translation-management/pro-translation.class.php:2068
+#, php-format
+#@ sitepress
+msgid "Last time translations were picked up: %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:37
+#: inc/translation-management/tm-notification.class.php:76
+#, php-format
+#@ sitepress
+msgid ""
+"\n"
+"View the original document in %s here: %s\n"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:42
+#: inc/translation-management/tm-notification.class.php:81
+#, php-format
+#@ sitepress
+msgid "New translation job from %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:43
+#, php-format
+#@ sitepress
+msgid ""
+"New job available from %s to %s.\n"
+"%s\n"
+"Start editing: %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:83
+#, php-format
+#@ sitepress
+msgid ""
+"You have been assigned to new translation job from %s to %s.\n"
+"%s\n"
+"Start editing: %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:118
+#, php-format
+#@ sitepress
+msgid "Translator has updated translation job for %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:119
+#, php-format
+#@ sitepress
+msgid ""
+"Translator (%s) has updated translation of job \"%s\" for %s to %s.\n"
+"%s\n"
+"\n"
+"View translation jobs: %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:122
+#, php-format
+#@ sitepress
+msgid "Translator has completed translation job for %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:123
+#, php-format
+#@ sitepress
+msgid ""
+"Translator (%s) has completed translation of job \"%s\" for %s to %s.\n"
+"%s\n"
+"\n"
+"View translation jobs: %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:155
+#, php-format
+#@ sitepress
+msgid "Translator has resigned from job on %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:156
+#, php-format
+#@ sitepress
+msgid "Translator %s has resigned from the translation job \"%s\" for %s to %s.%sView translation jobs: %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:178
+#, php-format
+#@ sitepress
+msgid "Removed from translation job on %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:179
+#, php-format
+#@ sitepress
+msgid "You have been removed from the translation job \"%s\" for %s to %s."
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:212
+#, php-format
+#@ sitepress
+msgid "You can view your other translation jobs here: %s"
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:213
+#, php-format
+#@ sitepress
+msgid ""
+"This message was automatically sent by Translation Management running on %s. To stop receiving these notifications contact the system administrator at %s.\n"
+"\n"
+"This email is not monitored for replies."
+msgstr ""
+
+#: inc/translation-management/tm-notification.class.php:215
+#, php-format
+#@ sitepress
+msgid ""
+"This message was automatically sent by Translation Management running on %s. To stop receiving these notifications, go to Notification Settings, or contact the system administrator at %s.\n"
+"\n"
+"This email is not monitored for replies."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:196
+#, php-format
+#@ sitepress
+msgid "New - side-by-site translation editor: <a href=\"%s\">try it</a> | <a href=\"#cancel\">no thanks</a>."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:263
+#, php-format
+#@ sitepress
+msgid "%s has been added as a translator for this site."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:270
+#, php-format
+#@ sitepress
+msgid "Language pairs for %s have been edited."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:277
+#: inc/translation-management/translation-management.class.php:448
+#, php-format
+#@ sitepress
+msgid "%s has been removed as a translator for this site."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:321
+#@ sitepress
+msgid "Preferences saved."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:333
+#@ sitepress
+msgid "Translation requests cancelled."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:368
+#: inc/translation-management/translation-management.class.php:581
+#@ sitepress
+msgid "Chat with translator"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:679
+#: inc/translation-management/translation-management.class.php:699
+#@ sitepress
+msgid "First available"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:708
+#@ sitepress
+msgid "Local"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1269
+#: menu/menus-sync.php:149
+#@ sitepress
+msgid "Not translated"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1270
+#@ sitepress
+msgid "Waiting for translator"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1271
+#@ sitepress
+msgid "In progress"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1273
+#: menu/post-menu.php:113
+#: menu/post-menu.php:190
+#@ sitepress
+msgid "Duplicate"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1536
+#@ sitepress
+msgid "Please select at least one language to translate into."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1545
+#@ sitepress
+msgid "Please select at least one document to translate."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1647
+#@ sitepress
+msgid "No documents were sent to translation. Make sure that translations are not currently in progress or already translated for the selected language(s)."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1652
+#@ sitepress
+msgid "Some documents were sent to translation."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1656
+#@ sitepress
+msgid "Some documents were <i>not</i> sent to translation. Make sure that translations are not currently in progress for the selected language(s)."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1661
+#@ sitepress
+msgid "Selected document(s) sent to translation."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1951
+#@ sitepress
+msgid "The original has been deleted!"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:1954
+#: menu/network.php:88
+#@ sitepress
+#@ default
+msgid "Deleted"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:2038
+#, php-format
+#@ sitepress
+msgid "You can't translate this document. It's assigned to a different translator.<br /> Document: <strong>%s</strong> (ID = %d)."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:2408
+#@ sitepress
+msgid "Translation added: "
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:2410
+#@ sitepress
+msgid "Translation updated: "
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:2434
+#@ sitepress
+msgid "Translation (incomplete) saved."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:2961
+#: inc/translation-management/translation-management.class.php:2970
+#@ sitepress
+msgid "translate"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:3105
+#@ sitepress
+msgid "Meet freelance professional translators from around the world.<br />You can interview and choose the best ones for your project."
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:3106
+#@ sitepress
+msgid "Get translators"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:3153
+#: inc/translation-management/translation-management.class.php:3157
+#@ sitepress
+msgid "Post not found!"
+msgstr ""
+
+#: inc/translation-management/translation-management.class.php:3185
+#@ sitepress
+msgid "No matches"
+msgstr ""
+
+#: inc/upgrade-functions/upgrade-2.0.0.php:63
+#: inc/upgrade-functions/upgrade-2.0.0.php:164
+#@ sitepress
+msgid "Processing translations..."
+msgstr ""
+
+#: inc/upgrade-functions/upgrade-2.0.0.php:164
+#@ sitepress
+msgid "Finalizing upgrade..."
+msgstr ""
+
+#: inc/upgrade-functions/upgrade-2.0.0.php:202
+#: menu/troubleshooting.php:213
+#: menu/troubleshooting.php:523
+#: menu/troubleshooting.php:533
+#: menu/troubleshooting.php:543
+#: menu/troubleshooting.php:641
+#@ sitepress
+msgid "Done"
+msgstr ""
+
+#: inc/upgrade-functions/upgrade-2.0.0.php:206
+#@ sitepress
+msgid "Missing step"
+msgstr ""
+
+#: inc/upgrade-functions/upgrade-2.0.0.php:219
+#@ sitepress
+msgid "Resume Upgrade Process"
+msgstr ""
+
+#: inc/upgrade-functions/upgrade-2.0.0.php:219
+#@ sitepress
+msgid "Run Upgrade Process"
+msgstr ""
+
+#: inc/upgrade-functions/upgrade-2.0.0.php:220
+#@ sitepress
+msgid "WPML requires database upgrade"
+msgstr ""
+
+#: inc/upgrade-functions/upgrade-2.0.0.php:221
+#@ sitepress
+msgid "This normally takes a few seconds, but may last up to several minutes of very large databases."
+msgstr ""
+
+#: inc/upgrade-functions/upgrade-2.0.0.php:232
+#@ sitepress
+msgid "Starting the upgrade process..."
+msgstr ""
+
+#: inc/upgrade-functions/upgrade-2.0.0.php:248
+#@ sitepress
+msgid "Creating new tables..."
+msgstr ""
+
+#: inc/upgrade.php:129
+#, php-format
+#@ sitepress
+msgid "<strong>WPML notice:</strong> Upgrades to this version are only supported from versions %s and above. To upgrade from version %s, first, download <a%s>2.0.4</a>, do the DB upgrade and then go to this version."
+msgstr ""
+
+#: inc/upgrade_plugins.php:89
+#@ sitepress
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+#: inc/upgrade_plugins.php:93
+#@ sitepress
+msgid "An unknown error occurred."
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:122
+#: menu/menus-sync.php:12
+#@ sitepress
+msgid "WP Menus Sync"
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:318
+#@ sitepress
+msgid "Translations:"
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:324
+#@ sitepress
+msgid "edit translation"
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:326
+#: menu/dashboard-widget.php:37
+#: menu/post-menu.php:211
+#@ sitepress
+msgid "edit"
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:329
+#: menu/post-menu.php:124
+#@ sitepress
+msgid "add translation"
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:331
+#: sitepress.class.php:4089
+#@ sitepress
+msgid "add"
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:339
+#@ sitepress
+msgid "Synchronize menus between languages."
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:345
+#: menu/languages.php:213
+#: menu/menus-sync.php:24
+#: menu/theme-localization.php:68
+#: menu/theme-localization.php:79
+#: sitepress.class.php:2350
+#: sitepress.class.php:3931
+#@ sitepress
+msgid "Language"
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:359
+#: inc/wp-nav-menus/iclNavMenu.class.php:428
+#@ sitepress
+msgid "Translation of:"
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:366
+#: inc/wp-nav-menus/iclNavMenu.class.php:430
+#@ sitepress
+msgid "none"
+msgstr ""
+
+#: inc/wp-nav-menus/iclNavMenu.class.php:661
+#@ sitepress
+msgid "not translated in current language"
+msgstr ""
+
+#: inc/wp-nav-menus/menus-sync.php:40
+#@ sitepress
+msgid "Menu(s) syncing complete."
+msgstr ""
+
+#: lib/Snoopy.class.php:1205
+#, php-format
+#@ sitepress
+msgid ""
+"WPML cannot connect to <a%s>www.icanlocalize.com</a>. Please make sure that outgoing communication on port 80 (or 443) is enabled.\n"
+"<a%s>www.icanlocalize.com</a> is found on IP - %s. You can open all ports to and from that IP."
+msgstr ""
+
+#: lib/icl_api.php:124
+#: lib/icl_api.php:128
+#@ sitepress
+msgid "Error:"
+msgstr ""
+
+#: lib/icl_api.php:481
+#, php-format
+#@ sitepress
+msgid "You don't have enough funds in your ICanLocalize account - [b]Funds required - $%s[/b]"
+msgstr ""
+
+#: menu/_custom_types_translation.php:21
+#, php-format
+#@ sitepress
+msgid "You haven't set your synchronization preferences for these custom posts: %s. Default value was selected."
+msgstr ""
+
+#: menu/_custom_types_translation.php:36
+#, php-format
+#@ sitepress
+msgid "You haven't set your synchronization preferences for these taxonomies: %s. Default value was selected."
+msgstr ""
+
+#: menu/_custom_types_translation.php:51
+#@ sitepress
+msgid "Custom posts"
+msgstr ""
+
+#: menu/_custom_types_translation.php:75
+#: menu/_custom_types_translation.php:114
+#: menu/_posts_sync_options.php:67
+#: menu/comments-translation.php:58
+#: menu/edit-languages.php:121
+#: menu/theme-localization.php:51
+#: menu/theme-localization.php:125
+#@ sitepress
+msgid "Save"
+msgstr ""
+
+#: menu/_custom_types_translation.php:90
+#: sitepress.class.php:3417
+#@ sitepress
+msgid "Custom taxonomies"
+msgstr ""
+
+#: menu/_posts_sync_options.php:6
+#@ sitepress
+msgid "Posts and pages synchronization"
+msgstr ""
+
+#: menu/_posts_sync_options.php:15
+#@ sitepress
+msgid "Synchronize page order for translations"
+msgstr ""
+
+#: menu/_posts_sync_options.php:19
+#@ sitepress
+msgid "Set page parent for translation according to page parent of the original language"
+msgstr ""
+
+#: menu/_posts_sync_options.php:23
+#@ sitepress
+msgid "Synchronize page template"
+msgstr ""
+
+#: menu/_posts_sync_options.php:27
+#@ sitepress
+msgid "Synchronize comment status"
+msgstr ""
+
+#: menu/_posts_sync_options.php:31
+#@ sitepress
+msgid "Synchronize ping status"
+msgstr ""
+
+#: menu/_posts_sync_options.php:35
+#@ sitepress
+msgid "Synchronize sticky flag"
+msgstr ""
+
+#: menu/_posts_sync_options.php:39
+#@ sitepress
+msgid "Synchronize private flag"
+msgstr ""
+
+#: menu/_posts_sync_options.php:43
+#@ sitepress
+msgid "Synchronize posts format"
+msgstr ""
+
+#: menu/_posts_sync_options.php:48
+#@ sitepress
+msgid "When deleting a post, delete translations as well"
+msgstr ""
+
+#: menu/_posts_sync_options.php:53
+#@ sitepress
+msgid "Copy taxonomy to translations"
+msgstr ""
+
+#: menu/_posts_sync_options.php:57
+#@ sitepress
+msgid "Copy publishing date to translations"
+msgstr ""
+
+#: menu/_posts_sync_options.php:62
+#@ sitepress
+msgid "Sync taxonomy (e.g. category) parents "
+msgstr ""
+
+#: menu/admin-language-switcher.php:3
+#@ sitepress
+msgid "Show content in:"
+msgstr ""
+
+#: menu/admin-language-switcher.php:17
+#, php-format
+#@ sitepress
+msgid "This language selector determines which content to display. You can choose items in a specific language or in all languages. To change the language of the WordPress Admin interface, go to <a%s>your profile</a>."
+msgstr ""
+
+#: menu/affiliate-info.php:16
+#@ sitepress
+msgid "Affiliate information check"
+msgstr ""
+
+#: menu/affiliate-info.php:20
+#@ sitepress
+msgid "Affiliate test"
+msgstr ""
+
+#: menu/affiliate-info.php:23
+#@ sitepress
+msgid "Affiliate ID"
+msgstr ""
+
+#: menu/affiliate-info.php:27
+#@ sitepress
+msgid "Affiliate ID not defined in the theme"
+msgstr ""
+
+#: menu/affiliate-info.php:32
+#@ sitepress
+msgid "Affiliate Key"
+msgstr ""
+
+#: menu/affiliate-info.php:36
+#@ sitepress
+msgid "Affiliate KEY not defined in the theme"
+msgstr ""
+
+#: menu/affiliate-info.php:43
+#@ sitepress
+msgid "Congratulations! Your affiliate information is correct."
+msgstr ""
+
+#: menu/affiliate-info.php:45
+#@ sitepress
+msgid "Sorry, the affiliate information did not validate."
+msgstr ""
+
+#: menu/affiliate-info.php:46
+#@ sitepress
+msgid "Test"
+msgstr ""
+
+#: menu/comments-translation.php:16
+#@ sitepress
+msgid "the default language"
+msgstr ""
+
+#: menu/comments-translation.php:21
+#: menu/compatibility-packages.php:6
+#: menu/languages.php:5
+#: menu/languages.php:51
+#@ sitepress
+msgid "Setup WPML"
+msgstr ""
+
+#: menu/comments-translation.php:23
+#@ sitepress
+msgid "Comments translation"
+msgstr ""
+
+#: menu/comments-translation.php:25
+#@ sitepress
+msgid "Visitor comments can be translated to and from each user’s language. Different users can choose their language preferences in their profile pages."
+msgstr ""
+
+#: menu/comments-translation.php:26
+#, php-format
+#@ sitepress
+msgid "Your current admin language is %s. You can change it in your <a href=\"%s\">profile page</a>."
+msgstr ""
+
+#: menu/comments-translation.php:29
+#, php-format
+#@ sitepress
+msgid "To translate your replies, you need to enable <a href=\"%s\">professional translation</a>."
+msgstr ""
+
+#: menu/comments-translation.php:37
+#@ sitepress
+msgid "User login"
+msgstr ""
+
+#: menu/comments-translation.php:38
+#@ sitepress
+msgid "Translate comments by visitors"
+msgstr ""
+
+#: menu/comments-translation.php:39
+#@ sitepress
+msgid "Translate replies"
+msgstr ""
+
+#: menu/compatibility-packages.php:8
+#@ sitepress
+msgid "WPML compatibility packages will soon be obsolete and removed. Please use other means to make your site multilingual-ready."
+msgstr ""
+
+#: menu/compatibility-packages.php:10
+#@ sitepress
+msgid "Compatibility packages"
+msgstr ""
+
+#: menu/compatibility-packages.php:19
+#@ sitepress
+msgid "Packages list updated"
+msgstr ""
+
+#: menu/compatibility-packages.php:28
+#: menu/compatibility-packages.php:72
+#@ sitepress
+msgid "Package name"
+msgstr ""
+
+#: menu/compatibility-packages.php:29
+#: menu/compatibility-packages.php:73
+#@ sitepress
+msgid "Version"
+msgstr ""
+
+#: menu/compatibility-packages.php:30
+#: menu/compatibility-packages.php:74
+#@ sitepress
+msgid "Description"
+msgstr ""
+
+#: menu/compatibility-packages.php:32
+#: menu/compatibility-packages.php:76
+#@ sitepress
+msgid "Used for theme"
+msgstr ""
+
+#: menu/compatibility-packages.php:35
+#: menu/compatibility-packages.php:79
+#@ sitepress
+msgid "Used for plugin"
+msgstr ""
+
+#: menu/compatibility-packages.php:37
+#: menu/compatibility-packages.php:82
+#@ sitepress
+msgid "Author"
+msgstr ""
+
+#: menu/compatibility-packages.php:87
+#@ sitepress
+msgid "No packages found"
+msgstr ""
+
+#: menu/compatibility-packages.php:91
+#@ sitepress
+msgid "Update"
+msgstr ""
+
+#: menu/dashboard-widget.php:11
+#: menu/languages.php:153
+#@ sitepress
+msgid "hidden"
+msgstr ""
+
+#: menu/dashboard-widget.php:35
+#@ sitepress
+msgid "Setup languages"
+msgstr ""
+
+#: menu/dashboard-widget.php:37
+#@ sitepress
+msgid "Site languages:"
+msgstr ""
+
+#: menu/dashboard-widget.php:41
+#: menu/theme-localization.php:12
+#: sitepress.class.php:943
+#@ sitepress
+msgid "Theme and plugins localization"
+msgstr ""
+
+#: menu/dashboard-widget.php:44
+#@ sitepress
+msgid "Current configuration"
+msgstr ""
+
+#: menu/dashboard-widget.php:47
+#@ sitepress
+msgid "Translate by WPML"
+msgstr ""
+
+#: menu/dashboard-widget.php:49
+#@ sitepress
+msgid "Using a .mo file in the theme directory"
+msgstr ""
+
+#: menu/dashboard-widget.php:51
+#@ sitepress
+msgid "No localization"
+msgstr ""
+
+#: menu/dashboard-widget.php:57
+#@ sitepress
+msgid "Manage theme and plugins localization"
+msgstr ""
+
+#: menu/dashboard-widget.php:62
+#@ sitepress
+msgid "Help resources"
+msgstr ""
+
+#: menu/dashboard-widget.php:64
+#@ sitepress
+msgid "WPML home page"
+msgstr ""
+
+#: menu/dashboard-widget.php:65
+#@ sitepress
+msgid "Commercial support"
+msgstr ""
+
+#: menu/dashboard-widget.php:66
+#, php-format
+#@ sitepress
+msgid "Support Subscription - %s"
+msgstr ""
+
+#: menu/dashboard-widget.php:67
+#@ sitepress
+msgid "purchase"
+msgstr ""
+
+#: menu/dashboard-widget.php:82
+#@ sitepress
+msgid "WPML news"
+msgstr ""
+
+#: menu/edit-languages.php:20
+#@ sitepress
+msgid "Upload directory cannot be created. Check your permissions."
+msgstr ""
+
+#: menu/edit-languages.php:24
+#@ sitepress
+msgid "Upload dir is not writable"
+msgstr ""
+
+#: menu/edit-languages.php:44
+#: menu/languages.php:194
+#@ sitepress
+msgid "Edit Languages"
+msgstr ""
+
+#: menu/edit-languages.php:47
+#@ sitepress
+msgid ""
+"This table allows you to edit languages for your site. Each row represents a language.\n"
+"<br /><br />\n"
+"For each language, you need to enter the following information:\n"
+"<ul>\n"
+"    <li><strong>Code:</strong> a unique value that identifies the language. Once entered, the language code cannot be changed.</li>\n"
+"    <li><strong>Translations:</strong> the way the language name will be displayed in different languages.</li>\n"
+"    <li><strong>Flag:</strong> the flag to display next to the language (optional). You can either upload your own flag or use one of WPML's built in flag images.</li>\n"
+"    <li><strong>Default locale:</strong> This determines the locale value for this language. You should check the name of WordPress localization file to set this correctly.</li>\n"
+"</ul>"
+msgstr ""
+
+#: menu/edit-languages.php:67
+#@ sitepress
+msgid "Please note: language codes cannot be changed after adding languages. Make sure you enter the correct code."
+msgstr ""
+
+#: menu/edit-languages.php:81
+#: menu/edit-languages.php:93
+#@ sitepress
+msgid "Language name"
+msgstr ""
+
+#: menu/edit-languages.php:82
+#: menu/edit-languages.php:94
+#: menu/theme-localization.php:69
+#: menu/theme-localization.php:80
+#@ sitepress
+msgid "Code"
+msgstr ""
+
+#: menu/edit-languages.php:83
+#: menu/edit-languages.php:95
+#@ sitepress
+msgid "Translation (new)"
+msgstr ""
+
+#: menu/edit-languages.php:85
+#: menu/edit-languages.php:97
+#@ sitepress
+msgid "Translation"
+msgstr ""
+
+#: menu/edit-languages.php:87
+#: menu/edit-languages.php:99
+#: menu/languages.php:522
+#@ sitepress
+msgid "Flag"
+msgstr ""
+
+#: menu/edit-languages.php:88
+#: menu/edit-languages.php:100
+#@ sitepress
+msgid "Default locale"
+msgstr ""
+
+#: menu/edit-languages.php:118
+#@ sitepress
+msgid "Back to languages"
+msgstr ""
+
+#: menu/edit-languages.php:121
+#@ sitepress
+msgid "Add Language"
+msgstr ""
+
+#: menu/edit-languages.php:121
+#: menu/languages.php:166
+#: menu/languages.php:188
+#: menu/menus-sync.php:103
+#@ sitepress
+#@ default
+msgid "Cancel"
+msgstr ""
+
+#: menu/edit-languages.php:126
+#@ sitepress
+msgid "Reset languages"
+msgstr ""
+
+#: menu/edit-languages.php:127
+#@ sitepress
+msgid "WPML will reset all language information to its default values. Any languages that you added or edited will be lost."
+msgstr ""
+
+#: menu/edit-languages.php:156
+#@ sitepress
+msgid "Upload flag"
+msgstr ""
+
+#: menu/edit-languages.php:156
+#@ sitepress
+msgid "Use flag from WPML"
+msgstr ""
+
+#: menu/edit-languages.php:245
+#: menu/edit-languages.php:438
+#@ sitepress
+msgid "Please, enter valid data."
+msgstr ""
+
+#: menu/edit-languages.php:291
+#: menu/edit-languages.php:351
+#: menu/edit-languages.php:358
+#, php-format
+#@ sitepress
+msgid "Error adding translation %s for %s."
+msgstr ""
+
+#: menu/edit-languages.php:303
+#@ sitepress
+msgid "Error uploading flag file."
+msgstr ""
+
+#: menu/edit-languages.php:337
+#@ sitepress
+msgid "Adding language failed."
+msgstr ""
+
+#: menu/edit-languages.php:367
+#@ sitepress
+msgid "Error adding native name."
+msgstr ""
+
+#: menu/edit-languages.php:388
+#@ sitepress
+msgid "Error adding flag."
+msgstr ""
+
+#: menu/edit-languages.php:399
+#: menu/edit-languages.php:405
+#@ sitepress
+msgid "Language code exists"
+msgstr ""
+
+#: menu/edit-languages.php:428
+#@ sitepress
+msgid "Please, enter required data."
+msgstr ""
+
+#: menu/edit-languages.php:460
+#@ sitepress
+msgid "File extension not allowed."
+msgstr ""
+
+#: menu/edit-languages.php:483
+#@ sitepress
+msgid "There was an error uploading the file, please try again!"
+msgstr ""
+
+#: menu/icl_reminders.php:18
+#@ sitepress
+msgid "Hide reminders"
+msgstr ""
+
+#: menu/icl_reminders.php:19
+#@ sitepress
+msgid ""
+"Click OK to confirm.\n"
+"You can enable them back from Translation Management / Multilingual Content setup."
+msgstr ""
+
+#: menu/icl_reminders.php:21
+#@ sitepress
+msgid "Expand reminders"
+msgstr ""
+
+#: menu/icl_reminders.php:23
+#@ sitepress
+msgid "Collapse reminders"
+msgstr ""
+
+#: menu/languages.php:7
+#@ sitepress
+msgid "The WPML Multilingual CMS plugin is not currently enabled."
+msgstr ""
+
+#: menu/languages.php:8
+#, php-format
+#@ sitepress
+msgid "Please go to the <a href=\"%s\">Plugins</a> page and enable the WPML Multilingual CMS plugin before trying to configure the plugin."
+msgstr ""
+
+#: menu/languages.php:64
+#@ sitepress
+msgid "Before you can start using WPML, it needs to be set up"
+msgstr ""
+
+#: menu/languages.php:66
+#@ sitepress
+msgid "1. Language for existing contents"
+msgstr ""
+
+#: menu/languages.php:67
+#@ sitepress
+msgid "2. Select languages"
+msgstr ""
+
+#: menu/languages.php:68
+#@ sitepress
+msgid "3. Add a language switcher"
+msgstr ""
+
+#: menu/languages.php:81
+#@ sitepress
+msgid "Current content language"
+msgstr ""
+
+#: menu/languages.php:89
+#@ sitepress
+msgid "Before adding other languages, please select the language existing contents are written in:"
+msgstr ""
+
+#: menu/languages.php:109
+#: menu/languages.php:250
+#@ sitepress
+msgid "Next"
+msgstr ""
+
+#: menu/languages.php:120
+#@ sitepress
+msgid "This screen contains the language settings for your site."
+msgstr ""
+
+#: menu/languages.php:122
+#: menu/languages.php:138
+#@ sitepress
+msgid "Site Languages"
+msgstr ""
+
+#: menu/languages.php:123
+#: menu/languages.php:264
+#@ sitepress
+msgid "Language URL format"
+msgstr ""
+
+#: menu/languages.php:124
+#: menu/languages.php:393
+#@ sitepress
+msgid "Language switcher options"
+msgstr ""
+
+#: menu/languages.php:125
+#: menu/languages.php:579
+#@ sitepress
+msgid "Admin language"
+msgstr ""
+
+#: menu/languages.php:126
+#: menu/languages.php:618
+#@ sitepress
+msgid "Blog posts to display"
+msgstr ""
+
+#: menu/languages.php:127
+#: menu/languages.php:650
+#@ sitepress
+msgid "Hide languages"
+msgstr ""
+
+#: menu/languages.php:128
+#: menu/languages.php:703
+#@ sitepress
+msgid "Make themes work multilingual"
+msgstr ""
+
+#: menu/languages.php:129
+#: menu/languages.php:733
+#@ sitepress
+msgid "Browser language redirect"
+msgstr ""
+
+#: menu/languages.php:130
+#: menu/languages.php:796
+#@ sitepress
+msgid "WPML love"
+msgstr ""
+
+#: menu/languages.php:148
+#@ sitepress
+msgid "These languages are enabled for this site."
+msgstr ""
+
+#: menu/languages.php:163
+#@ sitepress
+msgid "Select the languages to enable for your site (you can also add and remove languages later)."
+msgstr ""
+
+#: menu/languages.php:168
+#@ sitepress
+msgid "Change default language"
+msgstr ""
+
+#: menu/languages.php:172
+#@ sitepress
+msgid "Add / Remove languages"
+msgstr ""
+
+#: menu/languages.php:208
+#@ sitepress
+msgid "Inactive content"
+msgstr ""
+
+#: menu/languages.php:209
+#@ sitepress
+msgid "In order to edit or delete these you need to activate the corresponding language first"
+msgstr ""
+
+#: menu/languages.php:214
+#@ sitepress
+msgid "Posts"
+msgstr ""
+
+#: menu/languages.php:215
+#@ sitepress
+msgid "Pages"
+msgstr ""
+
+#: menu/languages.php:216
+#@ sitepress
+msgid "Categories"
+msgstr ""
+
+#: menu/languages.php:217
+#@ sitepress
+msgid "Tags"
+msgstr ""
+
+#: menu/languages.php:222
+#@ sitepress
+msgid "Total"
+msgstr ""
+
+#: menu/languages.php:270
+#@ sitepress
+msgid "Choose how to determine which language visitors see contents in"
+msgstr ""
+
+#: menu/languages.php:287
+#, php-format
+#@ sitepress
+msgid "Different languages in directories (%s - %s, %s/%s/ - %s, etc.)"
+msgstr ""
+
+#: menu/languages.php:292
+#@ sitepress
+msgid "It looks like languages per directories will not function."
+msgstr ""
+
+#: menu/languages.php:297
+#@ default
+msgid "This can be a result of either:"
+msgstr ""
+
+#: menu/languages.php:299
+#@ sitepress
+msgid "WordPress is installed in a directory (not root) and you're using default links."
+msgstr ""
+
+#: menu/languages.php:300
+#@ sitepress
+msgid "URL rewriting is not enabled in your web server."
+msgstr ""
+
+#: menu/languages.php:301
+#@ sitepress
+msgid "The web server cannot write to the .htaccess file"
+msgstr ""
+
+#: menu/languages.php:303
+#@ sitepress
+msgid "How to fix"
+msgstr ""
+
+#: menu/languages.php:305
+#, php-format
+#@ sitepress
+msgid "When WPML accesses <a target=\"_blank\" href=\"%s\">%s</a> it gets:"
+msgstr ""
+
+#: menu/languages.php:314
+#, php-format
+#@ sitepress
+msgid "HTTP code: %s (%s)"
+msgstr ""
+
+#: menu/languages.php:322
+#, php-format
+#@ sitepress
+msgid "The expected value is: %s"
+msgstr ""
+
+#: menu/languages.php:338
+#@ sitepress
+msgid "A different domain per language"
+msgstr ""
+
+#: menu/languages.php:340
+#@ sitepress
+msgid "This option is not yet available for Multisite installs"
+msgstr ""
+
+#: menu/languages.php:367
+#, php-format
+#@ sitepress
+msgid "Language name added as a parameter (%s?lang=%s - %s)"
+msgstr ""
+
+#: menu/languages.php:401
+#@ sitepress
+msgid "Default settings have been loaded"
+msgstr ""
+
+#: menu/languages.php:405
+#@ sitepress
+msgid "Language switcher widget"
+msgstr ""
+
+#: menu/languages.php:418
+#, php-format
+#@ sitepress
+msgid "Theme has changed and widget is not active. Please visit %swidgets page%s."
+msgstr ""
+
+#: menu/languages.php:421
+#@ sitepress
+msgid "Choose where to display the language switcher widget:"
+msgstr ""
+
+#: menu/languages.php:426
+#@ sitepress
+msgid "--none--"
+msgstr ""
+
+#: menu/languages.php:430
+#, php-format
+#@ sitepress
+msgid "The drop-down language switcher can be added to your theme by inserting this PHP code: %s or as a widget"
+msgstr ""
+
+#: menu/languages.php:433
+#@ sitepress
+msgid "You can also create custom language switchers, such as a list of languages or country flags."
+msgstr ""
+
+#: menu/languages.php:434
+#@ sitepress
+msgid "Custom language switcher creation guide"
+msgstr ""
+
+#: menu/languages.php:442
+#@ sitepress
+msgid "Display 'Languages' as the widget title"
+msgstr ""
+
+#: menu/languages.php:448
+#@ sitepress
+msgid "Display the language switcher in the WP Menu"
+msgstr ""
+
+#: menu/languages.php:454
+#@ sitepress
+msgid "no menus defined"
+msgstr ""
+
+#: menu/languages.php:456
+#@ sitepress
+msgid "select"
+msgstr ""
+
+#: menu/languages.php:465
+#@ sitepress
+msgid "Language switcher style"
+msgstr ""
+
+#: menu/languages.php:470
+#@ sitepress
+msgid "Language switcher widget preview"
+msgstr ""
+
+#: menu/languages.php:484
+#@ sitepress
+msgid "Drop-down menu"
+msgstr ""
+
+#: menu/languages.php:490
+#@ sitepress
+msgid "List of languages"
+msgstr ""
+
+#: menu/languages.php:499
+#@ sitepress
+msgid "How to handle languages without translation"
+msgstr ""
+
+#: menu/languages.php:500
+#@ sitepress
+msgid "Some pages or posts may not be translated to all languages. Select how the language selector should behave in case translation is missing."
+msgstr ""
+
+#: menu/languages.php:505
+#@ sitepress
+msgid "Skip language"
+msgstr ""
+
+#: menu/languages.php:511
+#@ sitepress
+msgid "Link to home of language for missing translations"
+msgstr ""
+
+#: menu/languages.php:517
+#@ sitepress
+msgid "What to include in the language switcher"
+msgstr ""
+
+#: menu/languages.php:528
+#@ sitepress
+msgid "Native language name (the language name as it's written in that language)"
+msgstr ""
+
+#: menu/languages.php:534
+#@ sitepress
+msgid "Language name in display language (the language name as it's written in the currently displayed language)"
+msgstr ""
+
+#: menu/languages.php:546
+#@ sitepress
+msgid "Are you sure you want to reset to the default settings?"
+msgstr ""
+
+#: menu/languages.php:547
+#@ sitepress
+msgid "Restore default"
+msgstr ""
+
+#: menu/languages.php:558
+#@ sitepress
+msgid "Finish"
+msgstr ""
+
+#: menu/languages.php:589
+#@ sitepress
+msgid "Default admin language: "
+msgstr ""
+
+#: menu/languages.php:592
+#, php-format
+#@ sitepress
+msgid "Default language (currently %s)"
+msgstr ""
+
+#: menu/languages.php:600
+#, php-format
+#@ sitepress
+msgid "Each user can choose the admin language. You can edit your language preferences by visiting your <a href=\"%s\">profile page</a>."
+msgstr ""
+
+#: menu/languages.php:627
+#@ sitepress
+msgid "Only translated posts."
+msgstr ""
+
+#: menu/languages.php:632
+#@ sitepress
+msgid "All posts (display translation if it exists or posts in default language otherwise)."
+msgstr ""
+
+#: menu/languages.php:656
+#@ sitepress
+msgid "You can completely hide content in specific languages from visitors and search engines, but still view it yourself. This allows reviewing translations that are in progress."
+msgstr ""
+
+#: menu/languages.php:713
+#@ sitepress
+msgid "Adjust IDs for multilingual functionality"
+msgstr ""
+
+#: menu/languages.php:716
+#@ sitepress
+msgid "This feature turns themes into multilingual, without having to edit their PHP files."
+msgstr ""
+
+#: menu/languages.php:717
+#@ sitepress
+msgid "Note: auto-adjust IDs will increase the number of database queries for your site."
+msgstr ""
+
+#: menu/languages.php:739
+#@ sitepress
+msgid "WPML can automatically redirect visitors according to browser language."
+msgstr ""
+
+#: menu/languages.php:740
+#@ sitepress
+msgid "Important notes:"
+msgstr ""
+
+#: menu/languages.php:742
+#@ sitepress
+msgid "This feature should never be used when caching plugins are enabled."
+msgstr ""
+
+#: menu/languages.php:743
+#@ sitepress
+msgid "Visitors who have cookies disabled may have trouble switching between languages."
+msgstr ""
+
+#: menu/languages.php:750
+#@ sitepress
+msgid "Disable browser language redirect"
+msgstr ""
+
+#: menu/languages.php:754
+#@ sitepress
+msgid "Redirect visitors based on browser language only if translations exist"
+msgstr ""
+
+#: menu/languages.php:758
+#@ sitepress
+msgid "Always redirect visitors based on browser language (redirect to home page if translations are missing)"
+msgstr ""
+
+#: menu/languages.php:763
+#, php-format
+#@ sitepress
+msgid "Remember visitors' language preference for %s hours."
+msgstr ""
+
+#: menu/languages.php:767
+#@ sitepress
+msgid "Your browser doesn't seem to be allowing cookies to be set."
+msgstr ""
+
+#: menu/languages.php:805
+#, php-format
+#@ sitepress
+msgid "Tell the world your site is running multilingual with WPML (places a message in your site's footer) - <a href=\"%s\">read more</a>"
+msgstr ""
+
+#: menu/menus-sync.php:25
+#@ sitepress
+msgid "Action"
+msgstr ""
+
+#: menu/menus-sync.php:31
+#@ sitepress
+msgid "Nothing to sync."
+msgstr ""
+
+#: menu/menus-sync.php:43
+#, php-format
+#@ sitepress
+msgid "Add %s translation for the menu %s. Menu name: %s"
+msgstr ""
+
+#: menu/menus-sync.php:68
+#, php-format
+#@ sitepress
+msgid "translation of: %s"
+msgstr ""
+
+#: menu/menus-sync.php:87
+#, php-format
+#@ sitepress
+msgid "Add %s under %s"
+msgstr ""
+
+#: menu/menus-sync.php:90
+#, php-format
+#@ sitepress
+msgid "Delete %s from %s"
+msgstr ""
+
+#: menu/menus-sync.php:102
+#@ default
+msgid "Apply changes"
+msgstr ""
+
+#: menu/menus-sync.php:136
+#@ sitepress
+msgid "Auto-generated title. Edit to change."
+msgstr ""
+
+#: menu/menus-sync.php:193
+#@ sitepress
+msgid "Sync"
+msgstr ""
+
+#: menu/menus-sync.php:197
+#@ sitepress
+msgid "No menus found"
+msgstr ""
+
+#: menu/network.php:19
+#@ sitepress
+msgid "WPML has been reset for the selected site."
+msgstr ""
+
+#: menu/network.php:22
+#@ sitepress
+msgid "WPML has been deactivated for the selected site."
+msgstr ""
+
+#: menu/network.php:25
+#@ sitepress
+msgid "WPML has been activated for the selected site."
+msgstr ""
+
+#: menu/network.php:40
+#@ sitepress
+msgid "WPML Network Setup"
+msgstr ""
+
+#: menu/network.php:42
+#, php-format
+#@ default
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: menu/network.php:51
+#@ sitepress
+msgid "Search"
+msgstr ""
+
+#: menu/network.php:71
+#: menu/network.php:78
+#@ sitepress
+msgid "Site"
+msgstr ""
+
+#: menu/network.php:72
+#: menu/network.php:79
+#@ sitepress
+msgid "Status"
+msgstr ""
+
+#: menu/network.php:86
+#@ default
+msgid "Archived"
+msgstr ""
+
+#: menu/network.php:87
+#@ default
+msgctxt "site"
+msgid "Spam"
+msgstr ""
+
+#: menu/network.php:89
+#@ default
+msgid "Mature"
+msgstr ""
+
+#: menu/network.php:132
+#: sitepress.class.php:4122
+#@ sitepress
+msgid "Edit"
+msgstr ""
+
+#: menu/network.php:133
+#@ sitepress
+msgid "Dashboard"
+msgstr ""
+
+#: menu/network.php:136
+#, php-format
+#@ sitepress
+msgid "You are about to activate the site %s"
+msgstr ""
+
+#: menu/network.php:136
+#: menu/network.php:165
+#@ sitepress
+msgid "Activate"
+msgstr ""
+
+#: menu/network.php:138
+#, php-format
+#@ sitepress
+msgid "You are about to deactivate the site %s"
+msgstr ""
+
+#: menu/network.php:138
+#: menu/network.php:171
+#@ sitepress
+msgid "Deactivate"
+msgstr ""
+
+#: menu/network.php:141
+#, php-format
+#@ sitepress
+msgid "You are about to unarchive the site %s."
+msgstr ""
+
+#: menu/network.php:141
+#@ sitepress
+msgid "Unarchive"
+msgstr ""
+
+#: menu/network.php:143
+#, php-format
+#@ sitepress
+msgid "You are about to archive the site %s."
+msgstr ""
+
+#: menu/network.php:143
+#@ sitepress
+msgid "Archive"
+msgstr ""
+
+#: menu/network.php:146
+#, php-format
+#@ sitepress
+msgid "You are about to unspam the site %s."
+msgstr ""
+
+#: menu/network.php:146
+#@ sitepress
+msgid "Not Spam"
+msgstr ""
+
+#: menu/network.php:148
+#, php-format
+#@ sitepress
+msgid "You are about to mark the site %s as spam."
+msgstr ""
+
+#: menu/network.php:148
+#@ sitepress
+msgid "Spam"
+msgstr ""
+
+#: menu/network.php:151
+#, php-format
+#@ sitepress
+msgid "You are about to delete the site %s."
+msgstr ""
+
+#: menu/network.php:151
+#@ sitepress
+msgid "Delete"
+msgstr ""
+
+#: menu/network.php:154
+#@ sitepress
+msgid "Visit"
+msgstr ""
+
+#: menu/network.php:163
+#@ sitepress
+msgid "Inactive"
+msgstr ""
+
+#: menu/network.php:168
+#@ sitepress
+msgid "Active"
+msgstr ""
+
+#: menu/network.php:171
+#, php-format
+#@ sitepress
+msgid "You are about to deactivate WPML on the site %s."
+msgstr ""
+
+#: menu/network.php:178
+#, php-format
+#@ sitepress
+msgid "You are about to reset WPML for this site: %s."
+msgstr ""
+
+#: menu/network.php:179
+#: menu/troubleshooting.php:791
+#@ sitepress
+msgid "All translations you have sent to ICanLocalize will be lost if you reset WPML's data. They cannot be recovered later."
+msgstr ""
+
+#: menu/network.php:180
+#: menu/troubleshooting.php:773
+#@ sitepress
+msgid "Reset"
+msgstr ""
+
+#: menu/new_version_notice.php:57
+#, php-format
+#@ sitepress
+msgid "Your WPML subscription details are required. <a%s>More info</a>"
+msgstr ""
+
+#: menu/new_version_notice.php:59
+#, php-format
+#@ sitepress
+msgid "A new version of WPML is available. This version contains important security fixes, improved performance and new features. <a href=\"%s\">Upgrade now</a>"
+msgstr ""
+
+#: menu/post-menu.php:5
+#, php-format
+#@ sitepress
+msgid "This document is a duplicate of %s and it is maintained by WPML."
+msgstr ""
+
+#: menu/post-menu.php:9
+#@ sitepress
+msgid "Translate independently"
+msgstr ""
+
+#: menu/post-menu.php:10
+#, php-format
+#@ sitepress
+msgid "WPML will no longer synchronize this %s with the original content."
+msgstr ""
+
+#: menu/post-menu.php:17
+#, php-format
+#@ sitepress
+msgid "Language of this %s"
+msgstr ""
+
+#: menu/post-menu.php:32
+#: sitepress.class.php:3982
+#@ sitepress
+msgid "This is a translation of"
+msgstr ""
+
+#: menu/post-menu.php:36
+#: menu/post-menu.php:52
+#: menu/post-menu.php:73
+#: sitepress.class.php:3986
+#: sitepress.class.php:4003
+#: sitepress.class.php:4030
+#@ sitepress
+msgid "--None--"
+msgstr ""
+
+#: menu/post-menu.php:105
+#@ sitepress
+msgid "or, translate manually:"
+msgstr ""
+
+#: menu/post-menu.php:107
+#@ sitepress
+msgid "Translate yourself"
+msgstr ""
+
+#: menu/post-menu.php:137
+#@ sitepress
+msgid "in progress"
+msgstr ""
+
+#: menu/post-menu.php:147
+#: menu/post-menu.php:161
+#@ sitepress
+msgid "in progress (by a different translator)"
+msgstr ""
+
+#: menu/post-menu.php:150
+#: menu/post-menu.php:153
+#: menu/post-menu.php:171
+#: menu/post-menu.php:232
+#: menu/post-menu.php:240
+#@ sitepress
+msgid "You are not the translator of this document"
+msgstr ""
+
+#: menu/post-menu.php:182
+#@ sitepress
+msgid "create duplicate"
+msgstr ""
+
+#: menu/post-menu.php:201
+#: sitepress.class.php:4099
+#@ sitepress
+msgid "Translations"
+msgstr ""
+
+#: menu/post-menu.php:202
+#: sitepress.class.php:4100
+#@ sitepress
+msgid "hide"
+msgstr ""
+
+#: menu/post-menu.php:202
+#: sitepress.class.php:1867
+#: sitepress.class.php:4100
+#@ sitepress
+msgid "show"
+msgstr ""
+
+#: menu/post-menu.php:225
+#: menu/post-menu.php:252
+#@ sitepress
+msgid "Update translation"
+msgstr ""
+
+#: menu/post-menu.php:249
+#@ sitepress
+msgid "Translation is in progress"
+msgstr ""
+
+#: menu/post-menu.php:275
+#@ sitepress
+msgid "duplicate"
+msgstr ""
+
+#: menu/post-menu.php:318
+#, php-format
+#@ sitepress
+msgid "Overwrite with %s content."
+msgstr ""
+
+#: menu/post-menu.php:319
+#, php-format
+#@ sitepress
+msgid "The current content of this %s will be permanently lost. WPML will copy the %s content and replace the current content."
+msgstr ""
+
+#: menu/post-menu.php:320
+#@ sitepress
+msgid "This operation will synchronize this translation with the original language. When you edit the original, this translation will update immediately. It's meant when you want the content in this language to always be the same as the content in the original language."
+msgstr ""
+
+#: menu/support.php:4
+#: sitepress.class.php:973
+#@ sitepress
+msgid "Support"
+msgstr ""
+
+#: menu/theme-localization.php:14
+#@ sitepress
+msgid "Select how to localize the theme"
+msgstr ""
+
+#: menu/theme-localization.php:15
+#@ sitepress
+msgid "If your theme's texts are wrapped in gettext calls, WPML can help you display it multilingual."
+msgstr ""
+
+#: menu/theme-localization.php:21
+#@ sitepress
+msgid "WPML's String Translation module lets you translate the theme, plugins and admin texts. To install it, go to your WPML account, click on Downloads and get WPML String Translation."
+msgstr ""
+
+#: menu/theme-localization.php:34
+#@ sitepress
+msgid "Translate by WPML."
+msgstr ""
+
+#: menu/theme-localization.php:39
+#@ sitepress
+msgid "Translate using .mo files."
+msgstr ""
+
+#: menu/theme-localization.php:42
+#@ sitepress
+msgid "Automatically load the theme's .mo file using 'load_theme_textdomain'."
+msgstr ""
+
+#: menu/theme-localization.php:44
+#@ sitepress
+msgid "Enter textdomain value:"
+msgstr ""
+
+#: menu/theme-localization.php:52
+#@ sitepress
+msgid "Please enter a value for the textdomain."
+msgstr ""
+
+#: menu/theme-localization.php:54
+#@ sitepress
+msgid "Theme localization instructions"
+msgstr ""
+
+#: menu/theme-localization.php:60
+#@ sitepress
+msgid "Language locale settings"
+msgstr ""
+
+#: menu/theme-localization.php:61
+#@ sitepress
+msgid "Select the locale to use for each language. The locale for the default language is set in your wp_config.php file."
+msgstr ""
+
+#: menu/theme-localization.php:70
+#: menu/theme-localization.php:81
+#@ sitepress
+msgid "Locale file name"
+msgstr ""
+
+#: menu/theme-localization.php:71
+#: menu/theme-localization.php:73
+#: menu/theme-localization.php:82
+#: menu/theme-localization.php:84
+#, php-format
+#@ sitepress
+msgid "MO file in %s"
+msgstr ""
+
+#: menu/theme-localization.php:98
+#: menu/theme-localization.php:111
+#@ sitepress
+msgid "File exists."
+msgstr ""
+
+#: menu/theme-localization.php:100
+#: menu/theme-localization.php:113
+#@ sitepress
+msgid "File not found!"
+msgstr ""
+
+#: menu/translation-options.php:3
+#: sitepress.class.php:947
+#@ sitepress
+msgid "Translation options"
+msgstr ""
+
+#: menu/troubleshooting.php:35
+#@ sitepress
+msgid "PRO translation was reset."
+msgstr ""
+
+#: menu/troubleshooting.php:410
+#: sitepress.class.php:967
+#@ sitepress
+msgid "Troubleshooting"
+msgstr ""
+
+#: menu/troubleshooting.php:422
+#@ sitepress
+msgid "WPML Settings"
+msgstr ""
+
+#: menu/troubleshooting.php:475
+#@ sitepress
+msgid "WPML settings"
+msgstr ""
+
+#: menu/troubleshooting.php:496
+#@ sitepress
+msgid "More options"
+msgstr ""
+
+#: menu/troubleshooting.php:500
+#@ sitepress
+msgid "Raise mysql errors on XML-RPC calls"
+msgstr ""
+
+#: menu/troubleshooting.php:504
+#@ sitepress
+msgid "Communicate with ICanLocalize using HTTP instead of HTTPS"
+msgstr ""
+
+#: menu/troubleshooting.php:650
+#@ sitepress
+msgid "Clean up"
+msgstr ""
+
+#: menu/troubleshooting.php:651
+#@ sitepress
+msgid "Please make backup of your database before using this."
+msgstr ""
+
+#: menu/troubleshooting.php:653
+#@ sitepress
+msgid "Remove ghost entries from the translation tables"
+msgstr ""
+
+#: menu/troubleshooting.php:658
+#@ sitepress
+msgid "Synchronize translation jobs with ICanLocalize"
+msgstr ""
+
+#: menu/troubleshooting.php:662
+#@ sitepress
+msgid "CMS ID fix"
+msgstr ""
+
+#: menu/troubleshooting.php:668
+#@ sitepress
+msgid "General clean up"
+msgstr ""
+
+#: menu/troubleshooting.php:674
+#@ sitepress
+msgid "Check cancelled jobs on ICanLocalize"
+msgstr ""
+
+#: menu/troubleshooting.php:681
+#@ sitepress
+msgid "Set language information"
+msgstr ""
+
+#: menu/troubleshooting.php:691
+#: menu/troubleshooting.php:695
+#@ sitepress
+msgid "Reset PRO translation configuration"
+msgstr ""
+
+#: menu/troubleshooting.php:692
+#@ sitepress
+msgid "Resetting your ICanLocalize account will interrupt any translation jobs that you have in progress. Only use this function if your ICanLocalize account doesn't include any jobs, or if the account was deleted."
+msgstr ""
+
+#: menu/troubleshooting.php:693
+#@ sitepress
+msgid "I am about to reset the ICanLocalize project setting."
+msgstr ""
+
+#: menu/troubleshooting.php:695
+#@ sitepress
+msgid "Are you sure you want to reset the PRO translation configuration?"
+msgstr ""
+
+#: menu/troubleshooting.php:703
+#@ sitepress
+msgid "Database dump"
+msgstr ""
+
+#: menu/troubleshooting.php:704
+#@ sitepress
+msgid "Download"
+msgstr ""
+
+#: menu/troubleshooting.php:712
+#@ sitepress
+msgid "ICanLocalize connection test"
+msgstr ""
+
+#: menu/troubleshooting.php:754
+#@ sitepress
+msgid "Data"
+msgstr ""
+
+#: menu/troubleshooting.php:756
+#@ sitepress
+msgid "Response"
+msgstr ""
+
+#: menu/troubleshooting.php:763
+#@ sitepress
+msgid "Connect"
+msgstr ""
+
+#: menu/troubleshooting.php:778
+#@ sitepress
+msgid "This function is available through the Network Admin section."
+msgstr ""
+
+#: menu/troubleshooting.php:780
+#@ sitepress
+msgid "Go to WPML Network settings."
+msgstr ""
+
+#: menu/troubleshooting.php:782
+#@ sitepress
+msgid "You are not allowed to manage the WPML Network settings."
+msgstr ""
+
+#: menu/troubleshooting.php:789
+#@ sitepress
+msgid "Are you sure you want to reset all languages data? This operation cannot be reversed."
+msgstr ""
+
+#: menu/troubleshooting.php:797
+#@ sitepress
+msgid "I am about to reset all language data."
+msgstr ""
+
+#: menu/troubleshooting.php:799
+#@ sitepress
+msgid "Reset all language data and deactivate WPML"
+msgstr ""
+
+#: menu/upgrade_notice.php:3
+#@ sitepress
+msgid "translation controls on posts and pages lists"
+msgstr ""
+
+#: menu/upgrade_notice.php:4
+#@ sitepress
+msgid "huge speed improvements and the ability to prevent loading WPML's CSS and JS files"
+msgstr ""
+
+#: menu/upgrade_notice.php:5
+#@ sitepress
+msgid "you can configure the position and contents of the posts page in the top navigation"
+msgstr ""
+
+#: menu/upgrade_notice.php:6
+#@ sitepress
+msgid "many bugs fixed and an easy way to show your love for WPML"
+msgstr ""
+
+#: menu/upgrade_notice.php:7
+#@ sitepress
+msgid "simplified operation for basic usage and for getting professional translation"
+msgstr ""
+
+#: menu/upgrade_notice.php:8
+#@ sitepress
+msgid "theme compatibility packages, design for language switcher and language fall-back for posts"
+msgstr ""
+
+#: menu/upgrade_notice.php:9
+#@ sitepress
+msgid "bugs fixed and new support for Headspace2 SEO plugin"
+msgstr ""
+
+#: menu/upgrade_notice.php:10
+#@ sitepress
+msgid "WPML can now translate other plugins"
+msgstr ""
+
+#: menu/upgrade_notice.php:11
+#@ sitepress
+msgid "WPML adapts to any WordPress theme"
+msgstr ""
+
+#: menu/upgrade_notice.php:12
+#@ sitepress
+msgid "Home-page link automatically adjusts per language"
+msgstr ""
+
+#: menu/upgrade_notice.php:13
+#@ sitepress
+msgid "Bug fixes and stability improvements"
+msgstr ""
+
+#: menu/upgrade_notice.php:14
+#@ sitepress
+msgid "Added languages editing and translation for admin-texts"
+msgstr ""
+
+#: menu/upgrade_notice.php:15
+#: menu/upgrade_notice.php:16
+#@ sitepress
+msgid "Works with WordPress 3"
+msgstr ""
+
+#: menu/upgrade_notice.php:17
+#@ sitepress
+msgid "Supports custom taxonomies and lots of bug fixes for tags and categories"
+msgstr ""
+
+#: menu/upgrade_notice.php:18
+#@ sitepress
+msgid "Supports custom post types"
+msgstr ""
+
+#: menu/upgrade_notice.php:19
+#@ sitepress
+msgid "Supports multilingual menus"
+msgstr ""
+
+#: menu/upgrade_notice.php:20
+#@ sitepress
+msgid "Multilingual menus bug fixes and improved translation interface"
+msgstr ""
+
+#: menu/upgrade_notice.php:21
+#@ sitepress
+msgid "New Translator role and full translation management workflow"
+msgstr ""
+
+#: menu/upgrade_notice.php:30
+#, php-format
+#@ sitepress
+msgid "New in WPML %s: <b>%s</b>"
+msgstr ""
+
+#: menu/upgrade_notice.php:32
+#@ sitepress
+msgid "Learn more"
+msgstr ""
+
+#: menu/upgrade_notice.php:33
+#: sitepress.class.php:6275
+#@ sitepress
+msgid "Stop showing this message"
+msgstr ""
+
+#: menu/upgrade_notice.php:33
+#: modules/icl-translation/icl-reminder-popup.php:168
+#: sitepress.class.php:6275
+#@ sitepress
+msgid "Dismiss"
+msgstr ""
+
+#: modules/cache-plugins-integration/cache-plugins-integration.php:116
+#, php-format
+#@ sitepress
+msgid "<i>%s</i> integration"
+msgstr ""
+
+#: modules/cache-plugins-integration/cache-plugins-integration.php:118
+#@ sitepress
+msgid "You are using a caching plugin. When you translate strings, the cache needs to be cleared in order for the translation to display."
+msgstr ""
+
+#: modules/cache-plugins-integration/cache-plugins-integration.php:123
+#@ sitepress
+msgid "Automatically clear the cache when strings are translated"
+msgstr ""
+
+#: modules/cache-plugins-integration/cache-plugins-integration.php:126
+#@ sitepress
+msgid "I will clear the cache manually after translating strings"
+msgstr ""
+
+#: modules/cache-plugins-integration/cache-plugins-integration.php:129
+#@ sitepress
+msgid "Clear cache now"
+msgstr ""
+
+#: modules/icl-translation/icl-reminder-popup.php:70
+#, php-format
+#@ sitepress
+msgid "<p>In order to enable ICanLocalize translation, your site needs to be on a public server (not localhost). Please <a%s>contact us</a> for support. </p><p>Show <a%s>debug information</a>.</p>"
+msgstr ""
+
+#: modules/icl-translation/icl-reminder-popup.php:105
+#, php-format
+#@ sitepress
+msgid "There was a problem connecting to ICanLocalize. Please close this window and try again. If the problem persists please <a%s>contact us</a>."
+msgstr ""
+
+#: modules/multiple-domains-login.php:93
+#: modules/multiple-domains-login.php:97
+#@ sitepress
+msgid "Possible login hack attempt"
+msgstr ""
+
+#: sitepress.class.php:734
+#, php-format
+#@ sitepress
+msgid "Adding translation for: %s."
+msgstr ""
+
+#: sitepress.class.php:1387
+#, php-format
+#@ sitepress
+msgid "- (No translators available - please %sprovide more information about your site%s)"
+msgstr ""
+
+#: sitepress.class.php:1392
+#, php-format
+#@ sitepress
+msgid "- (No translators available - %scheck progress%s)"
+msgstr ""
+
+#: sitepress.class.php:1402
+#: sitepress.class.php:1406
+#: sitepress.class.php:1417
+#: sitepress.class.php:1430
+#: sitepress.class.php:6764
+#@ sitepress
+msgid "Select translators"
+msgstr ""
+
+#: sitepress.class.php:1418
+#, php-format
+#@ sitepress
+msgid "Communicate with %s"
+msgstr ""
+
+#: sitepress.class.php:1512
+#@ sitepress
+msgid "Professional translation not enabled"
+msgstr ""
+
+#: sitepress.class.php:1594
+#@ sitepress
+msgid "Data saved"
+msgstr ""
+
+#: sitepress.class.php:1595
+#@ sitepress
+msgid "Error: data not saved"
+msgstr ""
+
+#: sitepress.class.php:1599
+#, php-format
+#@ sitepress
+msgid "To add categories that already exist in other languages go to the <a%s>category management page</a>"
+msgstr ""
+
+#: sitepress.class.php:1609
+#, php-format
+#@ sitepress
+msgid "WPML can't run normally. There is an installation or server configuration problem. %sShow details%s"
+msgstr ""
+
+#: sitepress.class.php:1611
+#@ sitepress
+msgid "AJAX Error:"
+msgstr ""
+
+#: sitepress.class.php:1710
+#@ sitepress
+msgid "Private"
+msgstr ""
+
+#: sitepress.class.php:1786
+#@ sitepress
+msgid "Never show this."
+msgstr ""
+
+#: sitepress.class.php:1787
+#, php-format
+#@ sitepress
+msgid "WPML will copy %s from %s when you save this post."
+msgstr ""
+
+#: sitepress.class.php:1799
+#@ sitepress
+msgid "Sticky"
+msgstr ""
+
+#: sitepress.class.php:1866
+#@ sitepress
+msgid "copy from original"
+msgstr ""
+
+#: sitepress.class.php:2099
+#@ sitepress
+msgid "A project on ICanLocalize has been created."
+msgstr ""
+
+#: sitepress.class.php:2102
+#@ sitepress
+msgid "Project added"
+msgstr ""
+
+#: sitepress.class.php:2219
+#@ sitepress
+msgid "Please provide a short description of the website so that translators know what background is required from them."
+msgstr ""
+
+#: sitepress.class.php:2293
+#@ sitepress
+msgid "Multilingual Content Setup"
+msgstr ""
+
+#: sitepress.class.php:3380
+#@ sitepress
+msgid "Settings saved"
+msgstr ""
+
+#: sitepress.class.php:3397
+#, php-format
+#@ sitepress
+msgid "Make '%s' translatable"
+msgstr ""
+
+#: sitepress.class.php:3454
+#@ sitepress
+msgid "Custom fields"
+msgstr ""
+
+#: sitepress.class.php:3470
+#@ sitepress
+msgid "Don't translate"
+msgstr ""
+
+#: sitepress.class.php:3471
+#@ sitepress
+msgid "Copy"
+msgstr ""
+
+#: sitepress.class.php:3489
+#@ sitepress
+msgid "Note: Custom taxonomies and custom fields are shared across different post types."
+msgstr ""
+
+#: sitepress.class.php:3498
+#@ sitepress
+msgid "Nothing to configure."
+msgstr ""
+
+#: sitepress.class.php:3766
+#@ sitepress
+msgid "How to translate"
+msgstr ""
+
+#: sitepress.class.php:3845
+#@ sitepress
+msgid "Main Page (no parent)"
+msgstr ""
+
+#: sitepress.class.php:4122
+#@ sitepress
+msgid "n/a"
+msgstr ""
+
+#: sitepress.class.php:5926
+#, php-format
+#@ sitepress
+msgid "Your home page does not exist or its translation is not published in %s."
+msgstr ""
+
+#: sitepress.class.php:5928
+#: sitepress.class.php:5952
+#@ sitepress
+msgid "Edit this page to add translations"
+msgstr ""
+
+#: sitepress.class.php:5950
+#, php-format
+#@ sitepress
+msgid "Your blog page does not exist or its translation is not published in %s."
+msgstr ""
+
+#: sitepress.class.php:6043
+#@ sitepress
+msgid "WPML admin screens require JavaScript in order to display. JavaScript is currently off in your browser."
+msgstr ""
+
+#: sitepress.class.php:6201
+#@ sitepress
+msgid "WPML language settings"
+msgstr ""
+
+#: sitepress.class.php:6205
+#@ sitepress
+msgid "Select your language:"
+msgstr ""
+
+#: sitepress.class.php:6208
+#, php-format
+#@ sitepress
+msgid "Default admin language (currently %s)"
+msgstr ""
+
+#: sitepress.class.php:6213
+#@ sitepress
+msgid "this will be your admin language and will also be used for translating comments."
+msgstr ""
+
+#: sitepress.class.php:6215
+#@ sitepress
+msgid "Set admin language as editing language."
+msgstr ""
+
+#: sitepress.class.php:6219
+#@ sitepress
+msgid "Hidden languages:"
+msgstr ""
+
+#: sitepress.class.php:6236
+#@ sitepress
+msgid "All languages are currently displayed. Choose what to do when site languages are hidden."
+msgstr ""
+
+#: sitepress.class.php:6242
+#@ sitepress
+msgid "Display hidden languages"
+msgstr ""
+
+#: sitepress.class.php:6270
+#@ sitepress
+msgid "WPML is a powerful plugin with many features. Would you like to see a quick overview?"
+msgstr ""
+
+#: sitepress.class.php:6274
+#@ sitepress
+msgid "No thanks, I will configure myself"
+msgstr ""
+
+#: sitepress.class.php:6378
+#, php-format
+#@ sitepress
+msgid "Edit the %s translation"
+msgstr ""
+
+#: sitepress.class.php:6387
+#: sitepress.class.php:6467
+#, php-format
+#@ sitepress
+msgid "You are not allowed to edit the %s translation"
+msgstr ""
+
+#: sitepress.class.php:6400
+#@ sitepress
+msgid "Edit the original document"
+msgstr ""
+
+#: sitepress.class.php:6407
+#: sitepress.class.php:6440
+#: sitepress.class.php:6484
+#, php-format
+#@ sitepress
+msgid "Translation to %s is in progress"
+msgstr ""
+
+#: sitepress.class.php:6423
+#, php-format
+#@ sitepress
+msgid "Add translation to %s"
+msgstr ""
+
+#: sitepress.class.php:6453
+#, php-format
+#@ sitepress
+msgid "Translation to %s is in progress (by a different translator)"
+msgstr ""
+
+#: sitepress.class.php:6507
+#, php-format
+#@ sitepress
+msgid "Get %s translators"
+msgstr ""
+
+#: sitepress.class.php:6548
+#: sitepress.class.php:6552
+#, php-format
+#@ sitepress
+msgid "<a href=\"%s\">Multilingual WordPress</a> by <a href=\"%s\">ICanLocalize</a>"
+msgstr ""
+
+#: sitepress.class.php:6676
+#@ sitepress
+msgid "A translation for this post already exists"
+msgstr ""
+
+#: sitepress.class.php:6704
+#@ sitepress
+msgid "A translation in this language already exists"
+msgstr ""
+
+#: sitepress.class.php:6717
+#@ sitepress
+msgid "Invalid language code"
+msgstr ""
+
+#: sitepress.class.php:6765
+#@ sitepress
+msgid "Send documents to translation"
+msgstr ""
+
+#: sitepress.class.php:6766
+#@ sitepress
+msgid "Deposit payment"
+msgstr ""
+
+#: sitepress.class.php:6767
+#@ sitepress
+msgid "Translations will be returned to your site"
+msgstr ""
+
+#: sitepress.class.php:6780
+#@ sitepress
+msgid "Setup check list"
+msgstr ""
+
+#: sitepress.class.php:6827
+#@ sitepress
+msgid "Help"
+msgstr ""
+
+#: sitepress.class.php:6835
+#@ sitepress
+msgid "Get help"
+msgstr ""
+
+#: sitepress.class.php:7041
+#, php-format
+#@ sitepress
+msgid "You haven't set your <a %s>synchronization preferences</a> for these custom posts: %s. Default value was selected."
+msgstr ""
+
+#: sitepress.class.php:7054
+#, php-format
+#@ sitepress
+msgid "You haven't set your <a %s>synchronization preferences</a> for these taxonomies: %s. Default value was selected."
+msgstr ""
+
+#: sitepress.class.php:7073
+#, php-format
+#@ sitepress
+msgid "Multi-language | WPML %s"
+msgstr ""
+
+#: sitepress.class.php:7148
+#, php-format
+#@ sitepress
+msgid "Copy content from %s"
+msgstr ""
+
+#: sitepress.class.php:7150
+#@ sitepress
+msgid "This operation copies the content from the original language onto this translation. It's meant for when you want to start with the original content, but keep translating in this language. This button is only enabled when there's no content in the editor."
+msgstr ""
+

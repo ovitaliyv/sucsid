@@ -1,5 +1,6 @@
 */logs/*
-*/cache/*
+wp-content/cache/*
+wp-content/cache/supercache/*
 
 #NetBeans project files
 nbproject/

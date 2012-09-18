@@ -1,7 +1,8 @@
 <?php echo $args['before_widget'] ?>
 
 <?php if( $title ): ?>
-	<?php echo $before_title . $title . $after_title; ?>
+	<?php //echo $before_title . $title . $after_title; ?>
+	<?php echo $before_title . __( 'Upcoming Events', AI1EC_PLUGIN_NAME ) . $after_title; ?>
 <?php endif; ?>
 
 <div class="timely ai1ec-agenda-widget-view">

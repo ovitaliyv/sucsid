@@ -347,6 +347,10 @@ class SitePress{
                     $this->this_lang = rtrim($_GET['lang'],'/');    
                 // force default language for string translation
                 // we also make sure it's not saved in the cookie
+                }elseif(defined('DOING_AJAX') &&
+                        isset($_SESSION['lang'])){
+                  $this->this_lang = $_SESSION['lang'];
+                  $this->admin_language = $this->this_lang;
                 }elseif(isset($_GET['page']) && 
                     ((defined('WPML_ST_FOLDER') && $_GET['page'] == WPML_ST_FOLDER . '/menu/string-translation.php') || 
                     (defined('WPML_TM_FOLDER') && $_GET['page'] == WPML_TM_FOLDER . '/menu/translations-queue.php'))
@@ -356,7 +360,7 @@ class SitePress{
                     $this->this_lang = $lang;                                    
                 }else{
                     $this->this_lang = $this->get_default_language();
-                }  
+                }
                 if((isset($_GET['admin_bar']) && $_GET['admin_bar']==1) && (!isset($_GET['page']) || !defined('WPML_ST_FOLDER') || $_GET['page'] != WPML_ST_FOLDER . '/menu/string-translation.php')){
                     $this->set_admin_language_cookie();              
                 }
@@ -383,7 +387,9 @@ class SitePress{
 
                         if(in_array($exp[0], $active_languages)){
                             $this->this_lang = $exp[0];
-
+                            if(!defined('WP_ADMIN')){
+                              $_SESSION['lang'] = $this->this_lang;
+                            }
                             // before hijiking the SERVER[REQUEST_URI]
                             // override the canonical_redirect action
                             // keep a copy of the original request uri
@@ -420,16 +426,31 @@ class SitePress{
                             if(strlen($parts['path']) == 0){
                                 $_SERVER['REQUEST_URI'] = '/' . $_SERVER['REQUEST_URI'];
                             }
+                        }elseif(defined('DOING_AJAX') &&
+                          isset($_SESSION['lang'])){
+                          $this->this_lang = $_SESSION['lang'];
+                          $this->admin_language = $this->this_lang;
                         }else{
                             $this->this_lang = $this->get_default_language();
+                            if(!defined('WP_ADMIN')){
+                              if(!((isset($path)&&(($path=="/wp-login.php")||($path=="/wp-logout.php"))))){
+                                $_SESSION['lang'] = $this->this_lang;
+                              }
+                            }
                         }
                         break;
                     case 2:
-                        $exp = explode('.', $_SERVER['HTTP_HOST']);
-                        $__l = array_search('http' . $s . '://' . $_SERVER['HTTP_HOST'] . $blog_path, $this->settings['language_domains']);
-                        $this->this_lang = $__l?$__l:$this->get_default_language();
-                        if(defined('ICL_USE_MULTIPLE_DOMAIN_LOGIN') && ICL_USE_MULTIPLE_DOMAIN_LOGIN){
-                            include ICL_PLUGIN_PATH . '/modules/multiple-domains-login.php';
+                        if(defined('DOING_AJAX') &&
+                          isset($_SESSION['lang'])){
+                          $this->this_lang = $_SESSION['lang'];
+                          $this->admin_language = $this->this_lang;
+                        }else{
+                          $exp = explode('.', $_SERVER['HTTP_HOST']);
+                          $__l = array_search('http' . $s . '://' . $_SERVER['HTTP_HOST'] . $blog_path, $this->settings['language_domains']);
+                          $this->this_lang = $__l?$__l:$this->get_default_language();
+                          if(defined('ICL_USE_MULTIPLE_DOMAIN_LOGIN') && ICL_USE_MULTIPLE_DOMAIN_LOGIN){
+                              include ICL_PLUGIN_PATH . '/modules/multiple-domains-login.php';
+                          }
                         }
                         break;
                     case 3:
@@ -437,6 +458,10 @@ class SitePress{
                         if(isset($_GET['lang'])){
                             $this->this_lang = preg_replace("/[^0-9a-zA-Z-]/i", '',$_GET['lang']);
                         // set the language based on the content id - for short links
+                        }elseif(defined('DOING_AJAX') &&
+                          isset($_SESSION['lang'])){
+                          $this->this_lang = $_SESSION['lang'];
+                          $this->admin_language = $this->this_lang;
                         }elseif(isset($_GET['page_id'])){
                             $this->this_lang = $wpdb->get_var($wpdb->prepare("SELECT language_code FROM {$wpdb->prefix}icl_translations WHERE element_type='post_page' AND element_id=%d", $_GET['page_id']));
                         }elseif(isset($_GET['p'])){
@@ -902,12 +927,16 @@ class SitePress{
         }
 
         if(!$this->admin_language){
+          if(isset($_SESSION['lang'])){
+            $this->admin_language = $_SESSION['lang'];
+          }else{
             $this->admin_language = $this->settings['admin_default_language'];
+          }
         }
         if($this->admin_language == '_default_' && $this->get_default_language()){
             $this->admin_language = $this->get_default_language();
         }
-        
+    
     }
 
     function get_admin_language(){
@@ -1488,7 +1517,7 @@ class SitePress{
         echo $locale;die;
         if($locale){
             update_option('WPLANG', $locale);
-            $_SESSION['WPLANG'] = $locale;
+            //$_SESSION['WPLANG'] = $locale;
         }
         if($code != 'en' && !file_exists(ABSPATH . LANGDIR . '/' . $locale . '.mo')){
             return 1; //locale not installed
@@ -5796,8 +5825,6 @@ class SitePress{
         }
         add_filter('locale', array($this, 'locale'));
                 
-        $_SESSION['locale']=$locale;
-//        echo $_SESSION['locale'];
         return $locale;
     }
 

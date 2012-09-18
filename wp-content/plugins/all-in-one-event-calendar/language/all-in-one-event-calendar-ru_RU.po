@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: All-in-One Event Calendar by Timely v1.8.3-premium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-09-18 09:43:37+0200\n"
+"PO-Revision-Date: 2012-09-18 21:48:52+0200\n"
 "Last-Translator: admin <vetalreal@ukr.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,106 +19,106 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: app/controller/class-ai1ec-app-controller.php:377
+#: app/controller/class-ai1ec-app-controller.php:378
 #@ all-in-one-event-calendar
 msgid "Select at least one user  group / page to subscribe"
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:378
+#: app/controller/class-ai1ec-app-controller.php:379
 #@ all-in-one-event-calendar
 msgid "An unexpected error occurred, try reloading the page"
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:379
+#: app/controller/class-ai1ec-app-controller.php:380
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:254
 #@ all-in-one-event-calendar
 msgid "No subscriptions yet."
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:380
+#: app/controller/class-ai1ec-app-controller.php:381
 #@ all-in-one-event-calendar
 msgid "Please select no more than ten users / groups / pages at a time to avoid overloading Facebook Requests"
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:382
+#: app/controller/class-ai1ec-app-controller.php:383
 #@ all-in-one-event-calendar
 msgid "This feed is already being imported."
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:383
+#: app/controller/class-ai1ec-app-controller.php:384
 #@ all-in-one-event-calendar
 msgid "Please enter a valid iCalendar URL."
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:399
+#: app/controller/class-ai1ec-app-controller.php:400
 #@ all-in-one-event-calendar
 msgid "Please enter a valid latitude. A valid latitude is comprised between +90 and -90."
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:400
+#: app/controller/class-ai1ec-app-controller.php:401
 #@ all-in-one-event-calendar
 msgid "Please enter a valid longitude. A valid longitude is comprised between +180 and -180."
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:401
+#: app/controller/class-ai1ec-app-controller.php:402
 #@ all-in-one-event-calendar
 msgid "When the \"Input coordinates\" checkbox is checked, \"Latitude\" is a required field."
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:402
+#: app/controller/class-ai1ec-app-controller.php:403
 #@ all-in-one-event-calendar
 msgid "When the \"Input coordinates\" checkbox is checked, \"Longitude\" is a required field."
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:406
+#: app/controller/class-ai1ec-app-controller.php:407
 #@ all-in-one-event-calendar
 msgid "This setting cannot be changed in All-in-One Event Calendar Platform mode."
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:411
+#: app/controller/class-ai1ec-app-controller.php:412
 #@ all-in-one-event-calendar
 msgid "You must specify both an app id and app secret to connect to Facebook"
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:692
 #: app/controller/class-ai1ec-app-controller.php:693
+#: app/controller/class-ai1ec-app-controller.php:694
 #@ all-in-one-event-calendar
 msgid "Calendar Themes"
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:704
 #: app/controller/class-ai1ec-app-controller.php:705
+#: app/controller/class-ai1ec-app-controller.php:706
 #@ all-in-one-event-calendar
 msgid "Calendar Feeds"
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:720
 #: app/controller/class-ai1ec-app-controller.php:721
+#: app/controller/class-ai1ec-app-controller.php:722
 #: app/helper/class-ai1ec-platform-helper.php:111
 #: app/helper/class-ai1ec-settings-helper.php:339
 #@ all-in-one-event-calendar
 msgid "Calendar"
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:735
 #: app/controller/class-ai1ec-app-controller.php:736
+#: app/controller/class-ai1ec-app-controller.php:737
 #@ all-in-one-event-calendar
 msgid "Upgrade"
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:942
-#: app/controller/class-ai1ec-app-controller.php:1003
+#: app/controller/class-ai1ec-app-controller.php:943
+#: app/controller/class-ai1ec-app-controller.php:1004
 #, php-format
 #@ default
 msgid "Scripts and styles should not be registered or enqueued until the %1$s, %2$s, or %3$s hooks."
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:1045
+#: app/controller/class-ai1ec-app-controller.php:1046
 #@ default
 msgid "You do not have sufficient permissions to update plugins for this site."
 msgstr ""
 
-#: app/controller/class-ai1ec-app-controller.php:1053
+#: app/controller/class-ai1ec-app-controller.php:1054
 #@ default
 msgid "Download package is needed and was not supplied. Visit <a href=\"http://time.ly/\" target=\"_blank\">time.ly</a> to download the newest version of the plugin."
 msgstr ""
@@ -2091,9 +2091,10 @@ msgstr ""
 
 #: app/view/admin/class-ai1ec-agenda-widget.php:15
 #: app/view/admin/class-ai1ec-agenda-widget.php:36
+#: themes-ai1ec/vortex/agenda-widget.php:5
 #@ all-in-one-event-calendar
 msgid "Upcoming Events"
-msgstr ""
+msgstr "Ближайшие события"
 
 #: app/view/admin/class-ai1ec-agenda-widget.php:17
 #@ all-in-one-event-calendar
@@ -2622,13 +2623,13 @@ msgstr ""
 msgid "Read more"
 msgstr ""
 
-#: themes-ai1ec/vortex/agenda-widget.php:11
+#: themes-ai1ec/vortex/agenda-widget.php:12
 #@ all-in-one-event-calendar
 msgid "There are no upcoming events."
 msgstr ""
 
-#: themes-ai1ec/vortex/agenda-widget.php:46
-#: themes-ai1ec/vortex/agenda-widget.php:73
+#: themes-ai1ec/vortex/agenda-widget.php:47
+#: themes-ai1ec/vortex/agenda-widget.php:74
 #: themes-ai1ec/vortex/agenda.php:60
 #: themes-ai1ec/vortex/month.php:84
 #: themes-ai1ec/vortex/oneday.php:71
@@ -2645,12 +2646,12 @@ msgstr ""
 msgid "@ %s"
 msgstr ""
 
-#: themes-ai1ec/vortex/agenda-widget.php:51
+#: themes-ai1ec/vortex/agenda-widget.php:52
 #@ all-in-one-event-calendar
 msgid "All Day"
 msgstr ""
 
-#: themes-ai1ec/vortex/agenda-widget.php:80
+#: themes-ai1ec/vortex/agenda-widget.php:81
 #: themes-ai1ec/vortex/month.php:91
 #: themes-ai1ec/vortex/oneday.php:74
 #: themes-ai1ec/vortex/week.php:73
@@ -2658,30 +2659,30 @@ msgstr ""
 msgid "(all-day)"
 msgstr ""
 
-#: themes-ai1ec/vortex/agenda-widget.php:105
+#: themes-ai1ec/vortex/agenda-widget.php:106
 #@ all-in-one-event-calendar
 msgid "View Calendar"
 msgstr ""
 
-#: themes-ai1ec/vortex/agenda-widget.php:114
+#: themes-ai1ec/vortex/agenda-widget.php:115
 #: themes-ai1ec/vortex/calendar.php:113
 #@ all-in-one-event-calendar
 msgid "Subscribe to this calendar using your favourite calendar program (iCal, Outlook, etc.)"
 msgstr ""
 
-#: themes-ai1ec/vortex/agenda-widget.php:115
+#: themes-ai1ec/vortex/agenda-widget.php:116
 #: themes-ai1ec/vortex/calendar.php:114
 #@ all-in-one-event-calendar
 msgid "✔ Subscribe"
 msgstr ""
 
-#: themes-ai1ec/vortex/agenda-widget.php:119
+#: themes-ai1ec/vortex/agenda-widget.php:120
 #: themes-ai1ec/vortex/calendar.php:119
 #@ all-in-one-event-calendar
 msgid "Subscribe to this calendar in your Google Calendar"
 msgstr ""
 
-#: themes-ai1ec/vortex/agenda-widget.php:121
+#: themes-ai1ec/vortex/agenda-widget.php:122
 #@ all-in-one-event-calendar
 msgid "Add to Google"
 msgstr ""

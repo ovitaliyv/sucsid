@@ -1843,11 +1843,11 @@ li[class*=" icon-"].icon-large:before {
   vertical-align: top;
   background-color: #515f6e;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7b8c9d), color-stop(1em, #566675), to(#3c4752));
-  background-image: -webkit-linear-gradient(#9AA7B4, #708496 1em, #5E6F80);
-  background-image: -moz-linear-gradient(top, #9AA7B4, #708496 1em, #5E6F80);
-  background-image: -ms-linear-gradient(#9AA7B4, #708496 1em, #5E6F80);
-  background-image: -o-linear-gradient(#9AA7B4, #708496 1em, #5E6F80);
-  background-image: linear-gradient(#9AA7B4, #708496 1em, #5E6F80);
+  background-image: -webkit-linear-gradient(#7b8c9d, #566675 1em, #3c4752);
+  background-image: -moz-linear-gradient(top, #7b8c9d, #566675 1em, #3c4752);
+  background-image: -ms-linear-gradient(#7b8c9d, #566675 1em, #3c4752);
+  background-image: -o-linear-gradient(#7b8c9d, #566675 1em, #3c4752);
+  background-image: linear-gradient(#7b8c9d, #566675 1em, #3c4752);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b8c9d', endColorstr='#3c4752', GradientType=0);
 }

@@ -50,7 +50,7 @@ html{
   background: #0d1424 url(images/bgnoise.png) repeat center top;
 }
 body {
-  background: transparent url(images/black_twill.png) repeat-x left top;
+  background: transparent url(images/carbon_fibre.png) repeat-x left top;
   font: .81em/150% "Lucida Grande", Arial, "Lucida Sans Unicode", sans-serif;
   color: #666;
 }
@@ -521,6 +521,7 @@ MAIN NAVIGATION
 #main-nav a {
   color: #fff;
   display: block;
+  font-size: 140%;
   padding: 14px 15px;
   text-decoration: none;
   text-shadow: 0 -1px 0 rgba(0,0,0,.7);
@@ -976,7 +977,15 @@ PAGE TITLE
   margin: 0 0 10px;
   font: bold 190%/120% "Lucida Grande", Arial, "Lucida Sans Unicode", sans-serif;
 }
-
+.page-content .page-title{
+  display: none;
+}
+.widget_ai1ec_agenda_widget h4{
+  display: none;
+}
+.ai1ec-action-agenda .widget_ai1ec_agenda_widget{
+  display: none;
+}
 /************************************************************************************
 CATEGORY SECTIONS
 *************************************************************************************/

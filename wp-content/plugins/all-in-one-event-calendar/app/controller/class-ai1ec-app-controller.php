@@ -91,7 +91,8 @@ class Ai1ec_App_Controller {
 		$wpdb->query( "SET time_zone = '+0:00'" );
 
 		// Load plugin text domain
-		$this->load_textdomain();
+		
+    //$this->load_textdomain();
 
 		// Install/update database schema as necessary
 		$this->install_schema();

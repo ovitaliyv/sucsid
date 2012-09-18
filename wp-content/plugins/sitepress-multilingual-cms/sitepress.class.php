@@ -245,7 +245,8 @@ class SitePress{
             //
             add_filter('language_attributes', array($this, 'language_attributes'));
 
-            add_action('locale', array($this, 'locale'));
+            add_action('init', array($this, 'locale') );
+            add_action('locale', array($this, 'locale') );
 
             if(isset($_GET['____icl_validate_domain'])){ echo '<!--'.get_option('home').'-->'; exit; }
 
@@ -304,6 +305,8 @@ class SitePress{
             add_action('icl_dashboard_widget_notices', array($this, 'print_translatable_custom_content_status'));
         }
 
+        
+        add_action('init', array($this, 'wp_upgrade_locale'));
         
         add_filter('core_version_check_locale', array($this, 'wp_upgrade_locale'));
         
@@ -1460,6 +1463,7 @@ class SitePress{
     }
     
     function switch_lang($code = null){
+        
         static $original_language;
         
         if(is_null($original_language)) $original_language = $this->get_current_language();
@@ -1481,8 +1485,10 @@ class SitePress{
 
         // change WP locale
         $locale = $this->get_locale($code);
+        echo $locale;die;
         if($locale){
             update_option('WPLANG', $locale);
+            $_SESSION['WPLANG'] = $locale;
         }
         if($code != 'en' && !file_exists(ABSPATH . LANGDIR . '/' . $locale . '.mo')){
             return 1; //locale not installed
@@ -5790,7 +5796,8 @@ class SitePress{
         }
         add_filter('locale', array($this, 'locale'));
                 
-        
+        $_SESSION['locale']=$locale;
+//        echo $_SESSION['locale'];
         return $locale;
     }
 
@@ -7156,6 +7163,7 @@ class SitePress{
     }
 
     function wp_upgrade_locale($locale){
+
         if(defined('WPLANG') && WPLANG){
             $locale = WPLANG;
         }else{

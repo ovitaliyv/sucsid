@@ -400,6 +400,11 @@
 		color: #444 !important;
 		padding-left: 8px;
 	}
+  
+  /* lang_switcher */
+  #lang_sel_footer ul li a span{
+    display: none;
+  }
 }
 
 @media screen and (min-width: 481px) {

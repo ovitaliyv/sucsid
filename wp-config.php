@@ -69,7 +69,7 @@ $table_prefix  = 'ss_';
  * чтобы включить поддержку русского языка, скопируйте ru_RU.mo в wp-content/languages
  * и присвойте WPLANG значение 'ru_RU'.
  */
-define('WPLANG', 'ru_RU');
+define('WPLANG', 'en_US');
 
 /**
  * Для разработчиков: Режим отладки WordPress.

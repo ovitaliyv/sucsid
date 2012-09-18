@@ -20,6 +20,10 @@ define( 'WP_ADMIN', true );
 if ( empty( $_REQUEST['action'] ) )
 	die( '0' );
 
+//if(isset($_SESSION['WPLANG'])){
+  //update_option('WPLANG', 'en_US');//$_SESSION['WPLANG']);
+//}
+
 /** Load WordPress Bootstrap */
 require_once( dirname( dirname( __FILE__ ) ) . '/wp-load.php' );
 

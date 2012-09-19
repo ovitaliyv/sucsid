@@ -478,6 +478,7 @@ class Ai1ec_Calendar_Helper {
 		// Get the Join (filter_join) and Where (filter_where) statements based on
 		// $filter elements specified
 		$this->_get_filter_sql( $filter );
+    $lang = explode('_', get_locale());
 
 		$query = $wpdb->prepare(
 			"SELECT p.*, e.post_id, i.id AS instance_id, " .
@@ -493,7 +494,9 @@ class Ai1ec_Calendar_Helper {
 				"INNER JOIN $wpdb->posts p ON p.ID = e.post_id " .
 				"INNER JOIN {$wpdb->prefix}ai1ec_event_instances i ON e.post_id = i.post_id " .
 				$filter['filter_join'] .
-			"WHERE post_type = '" . AI1EC_POST_TYPE . "' " .
+			" INNER JOIN ss_icl_translations it ON p.ID = it.element_id ".
+      " WHERE it.language_code = '".$lang[0]."'".
+      " AND post_type = '" . AI1EC_POST_TYPE . "' " .
 			"AND " .
 				( $spanning ? "i.end > FROM_UNIXTIME( %d ) AND i.start < FROM_UNIXTIME( %d ) "
 										: "i.start >= FROM_UNIXTIME( %d ) AND i.start < FROM_UNIXTIME( %d ) " ) .

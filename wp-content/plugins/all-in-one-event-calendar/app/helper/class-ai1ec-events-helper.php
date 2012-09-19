@@ -840,6 +840,7 @@ class Ai1ec_Events_Helper {
 
 		// Get the Join (filter_join) and Where (filter_where) statements based on $filter elements specified
 		$ai1ec_calendar_helper->_get_filter_sql( $filter );
+    $lang = explode('_', get_locale());
 
 		$query = $wpdb->prepare(
 			"SELECT *, e.post_id, UNIX_TIMESTAMP( e.start ) as start, UNIX_TIMESTAMP( e.end ) as end, e.allday, e.recurrence_rules, e.exception_rules,
@@ -847,10 +848,11 @@ class Ai1ec_Events_Helper {
 				e.show_map, e.contact_name, e.contact_phone, e.contact_email, e.cost, e.ical_feed_url, e.ical_source_url,
 				e.ical_organizer, e.ical_contact, e.ical_uid " .
 			"FROM $wpdb->posts " .
-				"INNER JOIN {$wpdb->prefix}ai1ec_events AS e ON e.post_id = ID " .
+			"INNER JOIN {$wpdb->prefix}ai1ec_events AS e ON e.post_id = ID " .
 				$filter['filter_join'] .
-			"WHERE post_type = '" . AI1EC_POST_TYPE . "' " .
-				"AND post_status = 'publish' " .
+			" INNER JOIN ss_icl_translations it ON p.ID = it.element_id ".
+      " WHERE it.language_code = '".$lang[0]."' AND post_type = '" . AI1EC_POST_TYPE . "' " .
+			" AND post_status = 'publish' " .
 				$filter['filter_where'] .
 				$start_where_sql .
 				$end_where_sql,

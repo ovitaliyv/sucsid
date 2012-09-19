@@ -153,7 +153,9 @@ class Ai1ec_Settings_Helper {
 						<td>Enabled</td>
 						<td>Default</td>
 					</tr>
-					<?php foreach ( Ai1ec_Settings::$view_names as $key => $name ) {
+					<?php 
+          Ai1ec_Settings::set_defaults();
+          foreach ( Ai1ec_Settings::$view_names as $key => $name ) {
 						$this_view_bool = 'view_' . $key . '_enabled';
 						$is_view_enabled = $ai1ec_settings->$this_view_bool;
 						?>

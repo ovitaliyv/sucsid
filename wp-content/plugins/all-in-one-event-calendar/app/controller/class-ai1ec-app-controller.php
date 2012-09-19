@@ -135,6 +135,7 @@ class Ai1ec_App_Controller {
 		add_action( 'init',                                     array( &$ai1ec_events_controller, 'init' ) );
 		// Load plugin text domain
 		add_action( 'init',                                     array( &$this, 'load_textdomain' ) );
+    add_action( 'admin_bar_init',                           array( &$this, 'load_textdomain' ) );
 		// Load back-end javascript files
 		add_action( 'init',                                     array( &$this, 'load_admin_js' ) );
 		// Load the scripts for the backend for wordpress version < 3.3
@@ -479,7 +480,7 @@ class Ai1ec_App_Controller {
 	 **/
 	function activation_hook() {
 		// Load plugin text domain.
-		$this->load_textdomain();
+		//$this->load_textdomain();
 
 		// Flush rewrite rules.
 		$this->rewrite_flush();
@@ -493,10 +494,10 @@ class Ai1ec_App_Controller {
 	 * @return void
 	 **/
 	function load_textdomain() {
-		if( self::$_load_domain === FALSE ) {
+		//if( self::$_load_domain === FALSE ) {
 			load_plugin_textdomain( AI1EC_PLUGIN_NAME, false, AI1EC_LANGUAGE_PATH );
 			self::$_load_domain = TRUE;
-		}
+		//}
 	}
 
 	/**

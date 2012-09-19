@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: All-in-One Event Calendar by Timely v1.8.3-premium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-09-18 21:48:52+0200\n"
+"PO-Revision-Date: 2012-09-19 16:25:03+0200\n"
 "Last-Translator: admin <vetalreal@ukr.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -22,28 +22,28 @@ msgstr ""
 #: app/controller/class-ai1ec-app-controller.php:378
 #@ all-in-one-event-calendar
 msgid "Select at least one user  group / page to subscribe"
-msgstr ""
+msgstr "Нужно выбрать минимум одну группу пользователей / страниц для подписки"
 
 #: app/controller/class-ai1ec-app-controller.php:379
 #@ all-in-one-event-calendar
 msgid "An unexpected error occurred, try reloading the page"
-msgstr ""
+msgstr "Неожиданная ошибка, попробуйте перезагрузить страницу"
 
 #: app/controller/class-ai1ec-app-controller.php:380
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:254
 #@ all-in-one-event-calendar
 msgid "No subscriptions yet."
-msgstr ""
+msgstr "Пока нет подписок."
 
 #: app/controller/class-ai1ec-app-controller.php:381
 #@ all-in-one-event-calendar
 msgid "Please select no more than ten users / groups / pages at a time to avoid overloading Facebook Requests"
-msgstr ""
+msgstr "Пожалуйста, выберите не более десяти пользователей / групп / страниц, чтобы избежать перезагрузки Facebook"
 
 #: app/controller/class-ai1ec-app-controller.php:383
 #@ all-in-one-event-calendar
 msgid "This feed is already being imported."
-msgstr ""
+msgstr "Этот канал уже импортирован."
 
 #: app/controller/class-ai1ec-app-controller.php:384
 #@ all-in-one-event-calendar
@@ -84,13 +84,13 @@ msgstr ""
 #: app/controller/class-ai1ec-app-controller.php:694
 #@ all-in-one-event-calendar
 msgid "Calendar Themes"
-msgstr ""
+msgstr "Темы календаря"
 
 #: app/controller/class-ai1ec-app-controller.php:705
 #: app/controller/class-ai1ec-app-controller.php:706
 #@ all-in-one-event-calendar
 msgid "Calendar Feeds"
-msgstr ""
+msgstr "Подписки календаря"
 
 #: app/controller/class-ai1ec-app-controller.php:721
 #: app/controller/class-ai1ec-app-controller.php:722
@@ -98,7 +98,7 @@ msgstr ""
 #: app/helper/class-ai1ec-settings-helper.php:339
 #@ all-in-one-event-calendar
 msgid "Calendar"
-msgstr ""
+msgstr "Календарь"
 
 #: app/controller/class-ai1ec-app-controller.php:736
 #: app/controller/class-ai1ec-app-controller.php:737
@@ -127,7 +127,7 @@ msgstr ""
 #: app/model/class-ai1ec-settings.php:423
 #@ all-in-one-event-calendar
 msgid "Posterboard"
-msgstr ""
+msgstr "Афиша"
 
 #. translators: "%s" represents the week's starting date
 #: app/controller/class-ai1ec-calendar-controller.php:505
@@ -136,7 +136,7 @@ msgstr ""
 #, php-format
 #@ all-in-one-event-calendar
 msgid "Week of %s"
-msgstr ""
+msgstr "Неделя с %s"
 
 #: app/controller/class-ai1ec-calendar-controller.php:505
 #@ all-in-one-event-calendar
@@ -147,31 +147,31 @@ msgstr ""
 #: app/model/class-ai1ec-settings.php:427
 #@ all-in-one-event-calendar
 msgid "Agenda"
-msgstr ""
+msgstr "Анонс"
 
 #: app/controller/class-ai1ec-duplicate-controller.php:84
 #@ all-in-one-event-calendar
 msgid "Clone this item"
-msgstr ""
+msgstr "Клонировать этот элемент"
 
 #: app/controller/class-ai1ec-duplicate-controller.php:85
 #: app/controller/class-ai1ec-duplicate-controller.php:518
 #: app/controller/class-ai1ec-duplicate-controller.php:519
 #@ all-in-one-event-calendar
 msgid "Clone"
-msgstr ""
+msgstr "Создать копию"
 
 #: app/controller/class-ai1ec-duplicate-controller.php:87
 #: app/controller/class-ai1ec-duplicate-controller.php:140
 #: app/controller/class-ai1ec-duplicate-controller.php:144
 #@ all-in-one-event-calendar
 msgid "Copy to a new draft"
-msgstr ""
+msgstr "Копировать в новый черновик"
 
 #: app/controller/class-ai1ec-duplicate-controller.php:88
 #@ all-in-one-event-calendar
 msgid "New Draft"
-msgstr ""
+msgstr "Новый черновик"
 
 #: app/controller/class-ai1ec-duplicate-controller.php:185
 #@ all-in-one-event-calendar
@@ -186,12 +186,12 @@ msgstr ""
 #: app/controller/class-ai1ec-events-controller.php:301
 #@ all-in-one-event-calendar
 msgid "Publish"
-msgstr ""
+msgstr "Опубликовать"
 
 #: app/controller/class-ai1ec-events-controller.php:301
 #@ all-in-one-event-calendar
 msgid "Update"
-msgstr ""
+msgstr "Обновить"
 
 #: app/controller/class-ai1ec-events-controller.php:303
 #@ all-in-one-event-calendar
@@ -202,7 +202,7 @@ msgstr ""
 #, php-format
 #@ all-in-one-event-calendar
 msgid "Event updated. <a href=\"%s\">View event</a>"
-msgstr ""
+msgstr "Событие обновлено. <a href=\"%s\">Показать событие</a>"
 
 #: app/controller/class-ai1ec-events-controller.php:439
 #@ all-in-one-event-calendar
@@ -217,14 +217,14 @@ msgstr ""
 #: app/controller/class-ai1ec-events-controller.php:441
 #@ all-in-one-event-calendar
 msgid "Event updated."
-msgstr ""
+msgstr "Событие обновлено."
 
 #. translators: %s: date and time of the revision
 #: app/controller/class-ai1ec-events-controller.php:443
 #, php-format
 #@ all-in-one-event-calendar
 msgid "Event restored to revision from %s"
-msgstr ""
+msgstr "Событие восстановлено до ревизии %s"
 
 #: app/controller/class-ai1ec-events-controller.php:444
 #, php-format
@@ -263,12 +263,12 @@ msgstr ""
 #: app/controller/class-ai1ec-importer-controller.php:59
 #@ all-in-one-event-calendar
 msgid "The Events Calendar → All-in-One Event Calendar"
-msgstr ""
+msgstr "Календарь событий → All-in-One Event Calendar"
 
 #: app/controller/class-ai1ec-importer-controller.php:60
 #@ all-in-one-event-calendar
 msgid "Imports events created using The Events Calendar plugin into the All-in-One Event Calendar"
-msgstr ""
+msgstr "Импорт событий, созданных в плагине The Events Calendar в плагин All-in-One Event Calendar"
 
 #: app/controller/class-ai1ec-settings-controller.php:60
 #@ all-in-one-event-calendar
@@ -289,13 +289,13 @@ msgstr ""
 #@ all-in-one-event-calendar
 msgctxt "meta box"
 msgid "General Settings"
-msgstr ""
+msgstr "Основные настройки"
 
 #: app/controller/class-ai1ec-settings-controller.php:173
 #@ all-in-one-event-calendar
 msgctxt "meta box"
 msgid "Advanced Settings"
-msgstr ""
+msgstr "Дополнительные настройки"
 
 #: app/controller/class-ai1ec-settings-controller.php:184
 #@ all-in-one-event-calendar
@@ -438,7 +438,7 @@ msgstr ""
 #@ all-in-one-event-calendar
 msgctxt "Custom post type name"
 msgid "Events"
-msgstr ""
+msgstr "События"
 
 #: app/helper/class-ai1ec-app-helper.php:158
 #@ all-in-one-event-calendar
@@ -449,12 +449,12 @@ msgstr ""
 #: app/helper/class-ai1ec-app-helper.php:159
 #@ all-in-one-event-calendar
 msgid "Add New"
-msgstr ""
+msgstr "Добавить"
 
 #: app/helper/class-ai1ec-app-helper.php:160
 #@ all-in-one-event-calendar
 msgid "Add New Event"
-msgstr ""
+msgstr "Добавить новое Событие"
 
 #: app/helper/class-ai1ec-app-helper.php:161
 #@ all-in-one-event-calendar
@@ -469,22 +469,22 @@ msgstr ""
 #: app/helper/class-ai1ec-app-helper.php:163
 #@ all-in-one-event-calendar
 msgid "View Event"
-msgstr ""
+msgstr "Посмотреть событие"
 
 #: app/helper/class-ai1ec-app-helper.php:164
 #@ all-in-one-event-calendar
 msgid "Search Events"
-msgstr ""
+msgstr "Поиск событий"
 
 #: app/helper/class-ai1ec-app-helper.php:165
 #@ all-in-one-event-calendar
 msgid "No Events found"
-msgstr ""
+msgstr "Не найдено"
 
 #: app/helper/class-ai1ec-app-helper.php:166
 #@ all-in-one-event-calendar
 msgid "No Events found in Trash"
-msgstr ""
+msgstr "Нет событий в корзине"
 
 #: app/helper/class-ai1ec-app-helper.php:167
 #@ all-in-one-event-calendar
@@ -494,31 +494,31 @@ msgstr ""
 #: app/helper/class-ai1ec-app-helper.php:168
 #@ all-in-one-event-calendar
 msgid "Events"
-msgstr ""
+msgstr "События"
 
 #: app/helper/class-ai1ec-app-helper.php:215
 #@ all-in-one-event-calendar
 msgctxt "Event categories taxonomy"
 msgid "Event Categories"
-msgstr ""
+msgstr "Категории событий"
 
 #: app/helper/class-ai1ec-app-helper.php:216
 #@ all-in-one-event-calendar
 msgctxt "Event categories taxonomy (singular)"
 msgid "Event Category"
-msgstr ""
+msgstr "Категория события"
 
 #: app/helper/class-ai1ec-app-helper.php:223
 #@ all-in-one-event-calendar
 msgctxt "Event tags taxonomy"
 msgid "Event Tags"
-msgstr ""
+msgstr "Теги событий"
 
 #: app/helper/class-ai1ec-app-helper.php:224
 #@ all-in-one-event-calendar
 msgctxt "Event tags taxonomy (singular)"
 msgid "Event Tag"
-msgstr ""
+msgstr "Тег события"
 
 #: app/helper/class-ai1ec-app-helper.php:231
 #@ all-in-one-event-calendar
@@ -535,18 +535,18 @@ msgstr ""
 #: app/helper/class-ai1ec-app-helper.php:320
 #@ all-in-one-event-calendar
 msgid "Show All "
-msgstr ""
+msgstr "Показать все"
 
 #: app/helper/class-ai1ec-app-helper.php:353
 #, php-format
 #@ all-in-one-event-calendar
 msgid "All Events <span class=\"update-plugins count-%d\" title=\"%d Pending Events\"><span class=\"update-count\">%d</span></span>"
-msgstr ""
+msgstr "Все события <span class=\"update-plugins count-%d\" title=\"%d Ожидаемые события\"><span class=\"update-count\">%d</span></span>"
 
 #: app/helper/class-ai1ec-app-helper.php:359
 #@ all-in-one-event-calendar
 msgid "All Events"
-msgstr ""
+msgstr "Все события"
 
 #: app/helper/class-ai1ec-app-helper.php:437
 #@ all-in-one-event-calendar
@@ -655,9 +655,9 @@ msgstr ""
 #@ default
 msgid "Event"
 msgid_plural "Events"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Событие"
+msgstr[1] "События"
+msgstr[2] "Событий"
 
 #: app/helper/class-ai1ec-app-helper.php:865
 #@ default
@@ -679,13 +679,13 @@ msgstr[2] ""
 #: app/helper/class-ai1ec-calendar-helper.php:1057
 #@ all-in-one-event-calendar
 msgid "« Previous Events"
-msgstr ""
+msgstr "« Предыдущие"
 
 #: app/helper/class-ai1ec-calendar-helper.php:888
 #: app/helper/class-ai1ec-calendar-helper.php:1064
 #@ all-in-one-event-calendar
 msgid "Next Events »"
-msgstr ""
+msgstr "Следующие »"
 
 #. translators: "%s" represents the week's starting date
 #: app/helper/class-ai1ec-calendar-helper.php:923
@@ -826,7 +826,7 @@ msgstr ""
 #: app/view/admin/box_repeat.php:3
 #@ all-in-one-event-calendar
 msgid "Weekly"
-msgstr ""
+msgstr "Еженедельно"
 
 #: app/helper/class-ai1ec-events-helper.php:609
 #: app/helper/class-ai1ec-events-helper.php:626
@@ -1070,17 +1070,17 @@ msgstr ""
 #, php-format
 #@ all-in-one-event-calendar
 msgid "View \"%s\" »"
-msgstr ""
+msgstr "Посмотреть \"%s\" »"
 
 #: app/helper/class-ai1ec-settings-helper.php:225
 #@ all-in-one-event-calendar
 msgid "Default (d/m/y)"
-msgstr ""
+msgstr "По умолчанию (д/м/г)"
 
 #: app/helper/class-ai1ec-settings-helper.php:228
 #@ all-in-one-event-calendar
 msgid "US (m/d/y)"
-msgstr ""
+msgstr "США (м/д/г)"
 
 #: app/helper/class-ai1ec-settings-helper.php:231
 #@ all-in-one-event-calendar
@@ -1111,17 +1111,17 @@ msgstr ""
 #: app/model/class-ai1ec-settings.php:424
 #@ all-in-one-event-calendar
 msgid "Month"
-msgstr ""
+msgstr "Месяц"
 
 #: app/model/class-ai1ec-settings.php:425
 #@ all-in-one-event-calendar
 msgid "Week"
-msgstr ""
+msgstr "Неделя"
 
 #: app/model/class-ai1ec-settings.php:426
 #@ all-in-one-event-calendar
 msgid "Day"
-msgstr ""
+msgstr "День"
 
 #: app/plugins/Ai1ecFacebookConnectorPlugin.php:374
 #@ all-in-one-event-calendar
@@ -1132,7 +1132,7 @@ msgstr ""
 #, php-format
 #@ all-in-one-event-calendar
 msgid "You unsubscribed from %s. "
-msgstr ""
+msgstr "Вы отписаны от %s."
 
 #: app/plugins/Ai1ecFacebookConnectorPlugin.php:426
 #, php-format
@@ -1413,12 +1413,12 @@ msgstr ""
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:232
 #@ all-in-one-event-calendar
 msgid "Event category: "
-msgstr ""
+msgstr "Категория события:"
 
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:236
 #@ all-in-one-event-calendar
 msgid "Tag with: "
-msgstr ""
+msgstr "Отметить тегом:"
 
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:261
 #@ default
@@ -1473,7 +1473,7 @@ msgstr ""
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:374
 #@ all-in-one-event-calendar
 msgid "Subscribe to your events"
-msgstr ""
+msgstr "Подписаться на ваши события"
 
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:406
 #@ all-in-one-event-calendar
@@ -1501,7 +1501,7 @@ msgstr ""
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:428
 #@ all-in-one-event-calendar
 msgid "Subscribe to more events"
-msgstr ""
+msgstr "Подписаться еще на события"
 
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:430
 #@ all-in-one-event-calendar
@@ -1511,19 +1511,19 @@ msgstr ""
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:451
 #@ all-in-one-event-calendar
 msgid "Subscribe to selected"
-msgstr ""
+msgstr "Подписаться на выбранное"
 
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:496
 #: app/view/admin/plugins/ics/display_feeds.php:45
 #@ all-in-one-event-calendar
 msgid "Keep Events"
-msgstr ""
+msgstr "Получение событий"
 
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:497
 #: app/view/admin/plugins/ics/display_feeds.php:44
 #@ all-in-one-event-calendar
 msgid "Remove Events"
-msgstr ""
+msgstr "Удалить события"
 
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:498
 #@ all-in-one-event-calendar
@@ -1533,7 +1533,7 @@ msgstr ""
 #: app/plugins/inc/facebook/class-ai1ec-facebook-tab.php:499
 #@ all-in-one-event-calendar
 msgid "Removing the following subscription: "
-msgstr ""
+msgstr "Удалить следующую подписку:"
 
 #: app/view/admin/agenda-widget-form.php:2
 #@ all-in-one-event-calendar
@@ -1548,7 +1548,7 @@ msgstr ""
 #: app/view/admin/agenda-widget-form.php:14
 #@ all-in-one-event-calendar
 msgid "Events with these <strong>Categories</strong>"
-msgstr ""
+msgstr "События этой <strong>Категории</strong>"
 
 #: app/view/admin/agenda-widget-form.php:23
 #@ all-in-one-event-calendar
@@ -1568,7 +1568,7 @@ msgstr ""
 #: app/view/admin/agenda-widget-form.php:46
 #@ all-in-one-event-calendar
 msgid "<strong>Or</strong> any of these <strong>Events</strong>"
-msgstr ""
+msgstr "<strong>Или</strong> любые из этих <strong>событий</strong>"
 
 #: app/view/admin/agenda-widget-form.php:55
 #@ all-in-one-event-calendar
@@ -1583,7 +1583,7 @@ msgstr ""
 #: app/view/admin/agenda-widget-form.php:65
 #@ all-in-one-event-calendar
 msgid "Show <strong>Subscribe</strong> buttons"
-msgstr ""
+msgstr "Показывать кнопки <strong>Подписаться</strong>"
 
 #: app/view/admin/agenda-widget-form.php:68
 #@ all-in-one-event-calendar
@@ -1593,17 +1593,17 @@ msgstr ""
 #: app/view/admin/box_advanced_settings.php:3
 #@ all-in-one-event-calendar
 msgid "Contain calendar in this DOM element:"
-msgstr ""
+msgstr "Поместить календарь в этот DOM-узел:"
 
 #: app/view/admin/box_advanced_settings.php:5
 #@ all-in-one-event-calendar
 msgid "Optional. Provide a <a href=\"http://api.jquery.com/category/selectors/\" target=\"_blank\">jQuery selector</a> that evaluates to a single DOM element. Replaces any existing markup found within target. If left empty, calendar is shown in normal page content container."
-msgstr ""
+msgstr "Необязательная опция. Укажите <a href=\"http://api.jquery.com/category/selectors/\" target=\"_blank\">jQuery селектор</a> который соответствует одиночному DOM-узлу. Заменяется любая найденная разметка, соответствующая селектору. Если узлов не найдено, то календарь выводится обычным способом."
 
 #: app/view/admin/box_advanced_settings.php:12
 #@ all-in-one-event-calendar
 msgid "Turn this blog into an <strong>events-only platform</strong>"
-msgstr ""
+msgstr "Перевести этот блог в режим <strong>\\\"только события\\\"</strong>"
 
 #: app/view/admin/box_advanced_settings.php:14
 #@ all-in-one-event-calendar
@@ -1613,12 +1613,12 @@ msgstr ""
 #: app/view/admin/box_advanced_settings.php:21
 #@ all-in-one-event-calendar
 msgid "<strong>Strict</strong> event platform mode"
-msgstr ""
+msgstr "<strong>Строгий</strong> режим для платформы событий"
 
 #: app/view/admin/box_advanced_settings.php:22
 #@ all-in-one-event-calendar
 msgid "Prevents plugins from adding menu items unrelated to calendar/media/user management"
-msgstr ""
+msgstr "Предотвращает плагины от добавления пунктов меню не связаны с календарем / медиа-ресурсами / управление пользователями"
 
 #: app/view/admin/box_event_contact.php:1
 #@ all-in-one-event-calendar
@@ -1663,7 +1663,7 @@ msgstr ""
 #: app/view/admin/box_event_location.php:18
 #@ all-in-one-event-calendar
 msgid "Address:"
-msgstr ""
+msgstr "Адрес:"
 
 #: app/view/admin/box_event_location.php:28
 #@ all-in-one-event-calendar
@@ -1800,12 +1800,12 @@ msgstr ""
 #: app/view/admin/box_general_settings.php:3
 #@ all-in-one-event-calendar
 msgid "Viewing Events"
-msgstr ""
+msgstr "Просмотр Событий"
 
 #: app/view/admin/box_general_settings.php:5
 #@ all-in-one-event-calendar
 msgid "Calendar page:"
-msgstr ""
+msgstr "Страница календаря:"
 
 #: app/view/admin/box_general_settings.php:10
 #@ all-in-one-event-calendar
@@ -1815,17 +1815,17 @@ msgstr ""
 #: app/view/admin/box_general_settings.php:15
 #@ all-in-one-event-calendar
 msgid "Week starts on"
-msgstr ""
+msgstr "Неделя начинается с"
 
 #: app/view/admin/box_general_settings.php:20
 #@ all-in-one-event-calendar
 msgid "Available Views:"
-msgstr ""
+msgstr "Доступные представления:"
 
 #: app/view/admin/box_general_settings.php:24
 #@ all-in-one-event-calendar
 msgid "Posterboard pages show at most"
-msgstr ""
+msgstr "Максимум отображаемых событий на страницах афиш"
 
 #: app/view/admin/box_general_settings.php:25
 #: app/view/admin/box_general_settings.php:29
@@ -1836,77 +1836,77 @@ msgstr ""
 #: app/view/admin/box_general_settings.php:28
 #@ all-in-one-event-calendar
 msgid "Agenda pages show at most"
-msgstr ""
+msgstr "Максимум событий в анонсах"
 
 #: app/view/admin/box_general_settings.php:34
 #@ all-in-one-event-calendar
 msgid "Keep all events <strong>expanded</strong> in the agenda view"
-msgstr ""
+msgstr "<strong>Развернуть</strong> все события в анонсах"
 
 #: app/view/admin/box_general_settings.php:40
 #@ all-in-one-event-calendar
 msgid "<strong>Show year</strong> in agenda date labels"
-msgstr ""
+msgstr "<strong>Отображать год</strong> в датах анонсов"
 
 #: app/view/admin/box_general_settings.php:46
 #@ all-in-one-event-calendar
 msgid "<strong>Show location in event titles</strong> in calendar views"
-msgstr ""
+msgstr "<strong>Выводить местоположение в названиях событий</strong> в календаре"
 
 #: app/view/admin/box_general_settings.php:52
 #@ all-in-one-event-calendar
 msgid "<strong>Exclude</strong> events from search results"
-msgstr ""
+msgstr "<strong>Исключить</strong> события из результатов поиска"
 
 #: app/view/admin/box_general_settings.php:58
 #@ all-in-one-event-calendar
 msgid "Show <strong>Post Your Event</strong> button above the calendar to privileged users"
-msgstr ""
+msgstr "Показывать кнопку <strong>Опубликовать ваше событие</strong> над календарем для привилегированных пользователей"
 
 #: app/view/admin/box_general_settings.php:64
 #@ all-in-one-event-calendar
 msgid "Hide <strong>Subscribe</strong>/<strong>Add to Calendar</strong> buttons in calendar and single event views"
-msgstr ""
+msgstr "Не показывать кнопки <strong>Подписаться</strong>/<strong>Добавить в Календарь</strong> в календаре и на странице события"
 
 #: app/view/admin/box_general_settings.php:70
 #@ all-in-one-event-calendar
 msgid "Hide <strong>Google Maps</strong> until clicked"
-msgstr ""
+msgstr "Прятать <strong>Google Maps</strong> до нажатия"
 
 #: app/view/admin/box_general_settings.php:76
 #@ all-in-one-event-calendar
 msgid "Include <strong>event categories</strong> in post category lists"
-msgstr ""
+msgstr "Показывать <strong>категории события</strong> в списке категорий публикаций"
 
 #: app/view/admin/box_general_settings.php:80
 #@ all-in-one-event-calendar
 msgid "Adding/Editing Events"
-msgstr ""
+msgstr "Добавление/Редактирование Событий"
 
 #: app/view/admin/box_general_settings.php:82
 #@ all-in-one-event-calendar
 msgid "Input dates in this format:"
-msgstr ""
+msgstr "Вводить даты в таком формате:"
 
 #: app/view/admin/box_general_settings.php:88
 #@ all-in-one-event-calendar
 msgid "Use <strong>24h time</strong> in time pickers"
-msgstr ""
+msgstr "Использовать <strong>24-х часовое</strong> окно выбора времени"
 
 #: app/view/admin/box_general_settings.php:94
 #@ all-in-one-event-calendar
 msgid "<strong>Disable address autocomplete</strong> function"
-msgstr ""
+msgstr "<strong>Отключить</strong> функцию автодополнения адресов"
 
 #: app/view/admin/box_general_settings.php:100
 #@ all-in-one-event-calendar
 msgid "Use the configured <strong>region</strong> (WordPress locale) to bias the address autocomplete function"
-msgstr ""
+msgstr "Использовать установки <strong>региона</strong> (локаль WordPress) для определения адреса в функции автодополнения"
 
 #: app/view/admin/box_general_settings.php:106
 #@ all-in-one-event-calendar
 msgid "Display <strong>Publish</strong> at bottom of Edit Event form"
-msgstr ""
+msgstr "Показывать кнопку <strong>Публиковать</strong> внизу форы редактирования события"
 
 #: app/view/admin/box_repeat.php:14
 #@ all-in-one-event-calendar
@@ -2037,22 +2037,22 @@ msgstr ""
 #: app/view/admin/calendar_tasks.php:16
 #@ all-in-one-event-calendar
 msgid "Add a new event to the calendar."
-msgstr ""
+msgstr "Добавить новое событие в календарь."
 
 #: app/view/admin/calendar_tasks.php:24
 #@ all-in-one-event-calendar
 msgid "Manage Events"
-msgstr ""
+msgstr "Управление событиями"
 
 #: app/view/admin/calendar_tasks.php:27
 #@ all-in-one-event-calendar
 msgid "View and edit all your events."
-msgstr ""
+msgstr "Просмотр и редактирование всех ваших событий."
 
 #: app/view/admin/calendar_tasks.php:39
 #@ all-in-one-event-calendar
 msgid "Manage Event Categories"
-msgstr ""
+msgstr "Управление категориями событий"
 
 #: app/view/admin/calendar_tasks.php:42
 #@ all-in-one-event-calendar
@@ -2072,12 +2072,12 @@ msgstr ""
 #: app/view/admin/calendar_tasks.php:63
 #@ all-in-one-event-calendar
 msgid "Manage Calendar Feeds"
-msgstr ""
+msgstr "Управление подписками календаря"
 
 #: app/view/admin/calendar_tasks.php:66
 #@ all-in-one-event-calendar
 msgid "Subscribe to other calendars."
-msgstr ""
+msgstr "Подписаться на другой календарь"
 
 #: app/view/admin/calendar_tasks.php:74
 #@ all-in-one-event-calendar
@@ -2111,7 +2111,7 @@ msgstr ""
 #: app/view/admin/event_categories-color_picker.php:25
 #@ all-in-one-event-calendar
 msgid "Events in this category will be identified by this color"
-msgstr ""
+msgstr "События этой категории будут отмечены этим цветом"
 
 #: app/view/admin/feed_row.php:3
 #: app/view/admin/plugins/ics/display_feeds.php:17
@@ -2166,7 +2166,7 @@ msgstr ""
 #: app/view/admin/plugins/ics/display_feeds.php:31
 #@ all-in-one-event-calendar
 msgid "+ Add new subscription"
-msgstr ""
+msgstr "+ Добавить новую подписку"
 
 #: app/view/admin/plugins/ics/display_feeds.php:38
 #@ all-in-one-event-calendar
@@ -2649,7 +2649,7 @@ msgstr ""
 #: themes-ai1ec/vortex/agenda-widget.php:52
 #@ all-in-one-event-calendar
 msgid "All Day"
-msgstr ""
+msgstr "Весь день"
 
 #: themes-ai1ec/vortex/agenda-widget.php:81
 #: themes-ai1ec/vortex/month.php:91
@@ -2662,30 +2662,30 @@ msgstr ""
 #: themes-ai1ec/vortex/agenda-widget.php:106
 #@ all-in-one-event-calendar
 msgid "View Calendar"
-msgstr ""
+msgstr "Посмотреть Календарь"
 
 #: themes-ai1ec/vortex/agenda-widget.php:115
 #: themes-ai1ec/vortex/calendar.php:113
 #@ all-in-one-event-calendar
 msgid "Subscribe to this calendar using your favourite calendar program (iCal, Outlook, etc.)"
-msgstr ""
+msgstr "Подписаться на этот календарь, используя вашу любимую программу календарей (iCal, Outlook, и т.п.)"
 
 #: themes-ai1ec/vortex/agenda-widget.php:116
 #: themes-ai1ec/vortex/calendar.php:114
 #@ all-in-one-event-calendar
 msgid "✔ Subscribe"
-msgstr ""
+msgstr "✔ Подписаться"
 
 #: themes-ai1ec/vortex/agenda-widget.php:120
 #: themes-ai1ec/vortex/calendar.php:119
 #@ all-in-one-event-calendar
 msgid "Subscribe to this calendar in your Google Calendar"
-msgstr ""
+msgstr "Подписаться на этот календарь в ваш Google Calendar"
 
 #: themes-ai1ec/vortex/agenda-widget.php:122
 #@ all-in-one-event-calendar
 msgid "Add to Google"
-msgstr ""
+msgstr "Добавить в Google"
 
 #: themes-ai1ec/vortex/agenda.php:6
 #: themes-ai1ec/vortex/month.php:6
@@ -2699,12 +2699,12 @@ msgstr "Сегодня"
 #: themes-ai1ec/vortex/agenda.php:12
 #@ all-in-one-event-calendar
 msgid "Expand All"
-msgstr ""
+msgstr "Развернуть все"
 
 #: themes-ai1ec/vortex/agenda.php:15
 #@ all-in-one-event-calendar
 msgid "Collapse All"
-msgstr ""
+msgstr "Свернуть все"
 
 #: themes-ai1ec/vortex/agenda.php:32
 #: themes-ai1ec/vortex/posterboard.php:22
@@ -2748,21 +2748,21 @@ msgstr ""
 #: themes-ai1ec/vortex/calendar.php:121
 #@ all-in-one-event-calendar
 msgid "Subscribe in Google Calendar"
-msgstr ""
+msgstr "Подписаться в Google Calendar"
 
 #: themes-ai1ec/vortex/event-excerpt.php:2
 #: themes-ai1ec/vortex/event-multi.php:4
 #: themes-ai1ec/vortex/event-single.php:5
 #@ all-in-one-event-calendar
 msgid "When:"
-msgstr ""
+msgstr "Когда:"
 
 #: themes-ai1ec/vortex/event-excerpt.php:4
 #: themes-ai1ec/vortex/event-multi.php:20
 #: themes-ai1ec/vortex/event-single.php:25
 #@ all-in-one-event-calendar
 msgid "Where:"
-msgstr ""
+msgstr "Где:"
 
 #: themes-ai1ec/vortex/event-map.php:2
 #@ all-in-one-event-calendar
@@ -2772,12 +2772,12 @@ msgstr ""
 #: themes-ai1ec/vortex/event-map.php:9
 #@ all-in-one-event-calendar
 msgid "View Full-Size Map"
-msgstr ""
+msgstr "Посмотреть карту в полном размере"
 
 #: themes-ai1ec/vortex/event-multi.php:7
 #@ all-in-one-event-calendar
 msgid "View in Calendar »"
-msgstr ""
+msgstr "Посмотреть в Календаре »"
 
 #: themes-ai1ec/vortex/event-multi.php:14
 #: themes-ai1ec/vortex/event-single.php:15
@@ -2788,7 +2788,7 @@ msgstr ""
 #: themes-ai1ec/vortex/event-multi.php:24
 #@ all-in-one-event-calendar
 msgid "View Map »"
-msgstr ""
+msgstr "Посмотреть карту »"
 
 #: themes-ai1ec/vortex/event-multi.php:33
 #: themes-ai1ec/vortex/event-single.php:45
@@ -2811,12 +2811,12 @@ msgstr ""
 #: themes-ai1ec/vortex/event-single-footer.php:8
 #@ all-in-one-event-calendar
 msgid "View original post"
-msgstr ""
+msgstr "Посмотреть оригинальную запись"
 
 #: themes-ai1ec/vortex/event-single.php:8
 #@ all-in-one-event-calendar
 msgid "Back to Calendar"
-msgstr ""
+msgstr "Назад в календарь"
 
 #: themes-ai1ec/vortex/event-single.php:21
 #@ all-in-one-event-calendar
@@ -2826,22 +2826,22 @@ msgstr ""
 #: themes-ai1ec/vortex/event-single.php:32
 #@ all-in-one-event-calendar
 msgid "Add this event to your favourite calendar program (iCal, Outlook, etc.)"
-msgstr ""
+msgstr "Добавить это событие в вашу любимую программу календарей (iCal, Outlook, и т.п.)"
 
 #: themes-ai1ec/vortex/event-single.php:33
 #@ all-in-one-event-calendar
 msgid "✔ Add to Calendar"
-msgstr ""
+msgstr "✔ в Календарь"
 
 #: themes-ai1ec/vortex/event-single.php:36
 #@ all-in-one-event-calendar
 msgid "Add this event to your Google Calendar"
-msgstr ""
+msgstr "Добавить это событие в ваш Google Calendar"
 
 #: themes-ai1ec/vortex/event-single.php:38
 #@ all-in-one-event-calendar
 msgid "Add to Google Calendar"
-msgstr ""
+msgstr " в Google Calendar"
 
 #: themes-ai1ec/vortex/oneday.php:35
 #: themes-ai1ec/vortex/week.php:34

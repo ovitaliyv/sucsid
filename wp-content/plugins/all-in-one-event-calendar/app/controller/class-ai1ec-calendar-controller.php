@@ -238,6 +238,7 @@ class Ai1ec_Calendar_Controller {
 
 		// Loop through array of views and check TRUE / FALSE on `view_instance_enabled`
 		// if FALSE, continue, if TRUE add to the $available_views array.
+    Ai1ec_Settings::set_defaults();
 		foreach( Ai1ec_Settings::$view_names as $key => $val ) {
 			$view_enabled = 'view_' . $key . '_enabled';
 			if( $ai1ec_settings->$view_enabled ) {

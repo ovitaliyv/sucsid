@@ -332,7 +332,8 @@ class Ai1ec_Settings {
 	 * Default constructor
 	 **/
 	private function __construct() {
-		$this->set_defaults(); // set default settings
+		add_action('plugins_loaded', array($this,'set_defaults'),999);
+    //$this->set_defaults(); // set default settings
 	}
 
 	/**

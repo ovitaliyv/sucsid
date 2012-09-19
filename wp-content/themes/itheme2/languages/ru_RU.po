@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iTheme2 v1.2.4\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/twentyeleven\n"
 "POT-Creation-Date: 2012-06-10 15:18:15+00:00\n"
-"PO-Revision-Date: 2012-09-11 21:14:53+0200\n"
+"PO-Revision-Date: 2012-09-19 14:51:39+0200\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -83,64 +83,64 @@ msgstr "Свежие записи"
 #: comments.php:21
 #@ themify
 msgid "No Comments"
-msgstr ""
+msgstr "Нет комментариев"
 
 #: comments.php:21
 #@ themify
 msgid "One Comment"
-msgstr ""
+msgstr "Один комментарий"
 
 #: comments.php:21
 #@ themify
 msgid "% Comments"
-msgstr ""
+msgstr "% комментариев"
 
 #: comments.php:58
 #@ themify
 msgid "Your Name"
-msgstr ""
+msgstr "Ваше имя"
 
 #: comments.php:63
 #@ themify
 msgid "Your Email"
-msgstr ""
+msgstr "Ваш email"
 
 #: comments.php:68
 #@ themify
 msgid "Your Website"
-msgstr ""
+msgstr "Ваш веб-сайт"
 
 #: comments.php:73
 #, php-format
 #@ default
 msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\">Log out?</a>"
-msgstr ""
+msgstr "Авторизован как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\">Выйтиt?</a>"
 
 #: comments.php:74
 #@ themify
 msgid "Leave a Reply"
-msgstr ""
+msgstr "Оставить отзыв"
 
 #: comments.php:77
 #: themify/tinymce/dialog.php:778
 #@ themify
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #: comments.php:78
 #@ themify
 msgid "Post Comment"
-msgstr ""
+msgstr "Отправить комментарий"
 
 #: includes/loop.php:74
 #@ themify
 msgid "By"
-msgstr ""
+msgstr "Автор:"
 
 #: includes/loop.php:79
 #@ themify
 msgid " <span class=\"post-tag\">&bull; Tags: "
-msgstr ""
+msgstr " <span class=\"post-tag\">&bull; Теги: "
 
 #: includes/pagination.php:5
 #@ themify
@@ -180,18 +180,18 @@ msgstr ""
 #: page.php:82
 #@ themify
 msgid "Page not found."
-msgstr ""
+msgstr "Страница не найдена."
 
 #: sidebar.php:6
 #: themify/themify-widgets.php:298
 #@ themify
 msgid "Pages"
-msgstr ""
+msgstr "Страницы"
 
 #: sidebar.php:13
 #@ themify
 msgid "Category"
-msgstr ""
+msgstr "Категория"
 
 #: theme-functions.php:82
 #@ themify
@@ -1924,7 +1924,7 @@ msgstr ""
 #: themify/themify-widgets.php:338
 #@ themify
 msgid "Sort By:"
-msgstr ""
+msgstr "Сортировать по:"
 
 #: themify/themify-widgets.php:341
 #@ themify

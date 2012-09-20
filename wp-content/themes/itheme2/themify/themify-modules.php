@@ -134,7 +134,8 @@
 	///////////////////////////////////////////
 	function themify_header_html_action($data=array()){
 		$data = get_data();
-		echo "\n\n".$data['setting-header_html'];
+		if( $data['setting-header_html'] )
+			echo "\n<!-- Themify Header Code -->\n".$data['setting-header_html']."\n<!-- End Themify Header Code -->\n";
 	}
 	add_action('wp_head','themify_header_html_action');
 	
@@ -153,7 +154,8 @@
 	///////////////////////////////////////////
 	function themify_footer_html_action($data=array()){
 		$data = get_data();
-		echo "\n\n".$data['setting-footer_html'];
+		if( $data['setting-footer_html'] )
+			echo "\n<!-- Themify Footer Code -->\n".$data['setting-footer_html']."\n<!-- End Themify Footer Code -->\n";
 	}
 	add_action('wp_footer','themify_footer_html_action');
 	
@@ -170,7 +172,8 @@
 	///////////////////////////////////////////
 	function themify_custom_css_action($data=array()){
 		$data = get_data();
-		echo "\n\n<!-- custom css -->\n\n<style type='text/css'>".$data['setting-custom_css']."</style>";
+		if( isset($data['setting-custom_css']) && ( '' != $data['setting-custom_css'] ) )
+			echo "\n<!-- Themify Custom CSS -->\n<style type='text/css'>\n".$data['setting-custom_css']."\n</style>\n<!-- End Themify Custom CSS -->\n";
 	}
 	add_action('wp_head','themify_custom_css_action');
 	

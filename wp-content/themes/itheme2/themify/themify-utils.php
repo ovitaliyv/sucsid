@@ -315,13 +315,10 @@
 	function themify_get_css(){
 		$data = get_data();
 		if($data['skin'] != ""){
-			$output .= '<link href="'.themify_https_esc($data['skin']).'" rel="stylesheet" type="text/css" />'."\n";
-		}
-		if(is_file(TEMPLATEPATH . "/custom_style.css")){
-			$output .=  '<link href="'.get_template_directory_uri().'/custom_style.css" rel="stylesheet" type="text/css" />'."\n";
+			$output .= "\n<!-- Themify Skin -->\n".'<link href="'.themify_https_esc($data['skin']).'" rel="stylesheet" type="text/css" />'."\n<!-- End Themify Skin -->\n";
 		}
 		if(is_array($data)){
-			foreach($data as $name => $value){	
+			foreach($data as $name => $value){
 				$array = explode('-',$name);
 				$path = "";
 				foreach($array as $part){
@@ -329,7 +326,8 @@
 				}
 				eval("\$config".$path." = \$value;");
 			}
-			if(is_array($config['styling'])){
+			if( is_array($config['styling']) ){
+				$output .= "\n<!-- Themify Styling -->\n";
 				$output .= "<style type='text/css'>\n";
 				foreach($config['styling'] as $nav => $value){
 					foreach($value as $element => $val){
@@ -500,12 +498,13 @@
 						}
 					}
 				}
-				$output .= "</style>";
+				$output .= "</style>\n";
+				$output .= "<!-- End Themify Styling -->\n";
 			}
 		} else {
 			$output = '<style type="text/css">/* ' . __('No Values in the Database', 'themify') . ' */</style>';
 		}
-		echo "\n\n".$output;
+		echo "\n".$output;
 	}
 	
 	///////////////////////////////////////////
@@ -2171,7 +2170,7 @@ function themify_feature_image_sizes_select($key = ''){
  * @since 1.1.5
  */
 function themify_https_esc($url = ''){
-	if( isset($_SERVER['HTTPS'] ) ){
+	if( isset($_SERVER['HTTPS']) && ( 'off' != $_SERVER['HTTPS'] ) ){
 		$parsed_url = parse_url($url);
 		$url = 'https://' . $parsed_url['host'] . $parsed_url['path'];
 	}
@@ -2254,7 +2253,7 @@ function themify_get_theme_names(){
  * Display an additional column in categories list
  * @since 1.1.8
  */
-function custom_category_header($cat_columns){
+function themify_custom_category_header($cat_columns){
     $cat_columns['cat_id'] = 'ID';
     return $cat_columns;
 }
@@ -2262,7 +2261,7 @@ function custom_category_header($cat_columns){
  * Display ID in additional column in categories list
  * @since 1.1.8
  */
-function custom_category($null, $column, $termid){
+function themify_custom_category($null, $column, $termid){
 	return $termid;
 }
 
@@ -2271,20 +2270,37 @@ function custom_category($null, $column, $termid){
  * @since 1.1.8
  */
 function themify_open_graph(){
-	$og = '<!-- Open Graph Tags -->';
-	$og .= '<meta property="og:site_name" content="' . get_bloginfo('name') . '" />';
+	$og = "\n<!-- Open Graph Tags -->\n";
+	$og .= '<meta property="og:site_name" content="' . get_bloginfo('name') . '" />' . "\n";
 	if ( is_home() || is_front_page() ){
 		$type = 'website';
 		$description = get_bloginfo('description');
 		$url = home_url();
 	} else {
 		$type = 'article';
-		$description =  strip_tags( get_the_excerpt() );
 		$url = apply_filters( 'the_permalink', get_permalink() );
+		if( is_category() || is_tag() || is_tax() ){
+			$description = strip_tags(category_description());
+		} elseif( is_search() ){
+			$description = get_search_query();
+		} else {
+			$description = strip_tags( get_the_excerpt() );
+			if( !$description ){
+				global $post;
+				$description = strip_tags($post->post_content);
+				$excerpt_length = 55;
+				$words = explode(' ', $description, $excerpt_length + 1);
+				if(count($words) > $excerpt_length){
+					array_pop($words);
+					$words[] = '...';
+					$description = implode(' ', $words);
+				}
+			}
+		}
 	}
-	$og .= '<meta property="og:type" content="' . apply_filters('themify_og_type', $type) . '" />';
-	$og .= '<meta property="og:description" content="' . apply_filters('themify_og_description', $description) . '" />';
-	$og .= '<meta property="og:url" content="'. $url . '" />';
+	$og .= '<meta property="og:type" content="' . apply_filters('themify_og_type', $type) . '" />' . "\n";
+	$og .= '<meta property="og:description" content="' . apply_filters('themify_og_description', $description) . '" />' . "\n";
+	$og .= '<meta property="og:url" content="'. $url . '" />' . "\n";
 	
 	if( is_singular() ){
 		if ( has_post_thumbnail() ){
@@ -2295,11 +2311,11 @@ function themify_open_graph(){
 			$thumb = get_post_meta($post->ID, 'post_image', true);
 		}
 		if( $thumb ){
-			$og .= '<meta property="og:image" content="' . apply_filters('themify_og_image', $thumb) . '" />';
+			$og .= '<meta property="og:image" content="' . apply_filters('themify_og_image', $thumb) . '" />' . "\n";
 		}
-		$og .= '<meta property="og:title"  content="' . the_title_attribute( array( 'echo' => false ) ) . '" />';
+		$og .= '<meta property="og:title"  content="' . the_title_attribute( array( 'echo' => false ) ) . '" />' . "\n";
 	}
-	$og .= '<!-- End Open Graph Tags -->';
+	$og .= "<!-- End Open Graph Tags -->\n";
 	echo apply_filters('themify_open_graph', $og);
 }
 add_action('wp_head', 'themify_open_graph');
@@ -2308,51 +2324,53 @@ add_action('wp_head', 'themify_open_graph');
  * Performs a beautified dump of a variable
  * @param mixed $var By reference. Variable to dump.
  */
-function dumpit(&$var, $var_name = NULL, $indent = NULL, $reference = NULL){
-	$do_dump_indent = "<span style='color:#666666;'>|</span> &nbsp;&nbsp; ";
-	$reference = $reference.$var_name;
-	$keyvar = 'the_do_dump_recursion_protection_scheme'; $keyname = 'referenced_object_name';
-	echo "<div style='text-align:left; background-color:white; font: 100% monospace; color:black;'>";
-	if (is_array($var) && isset($var[$keyvar])){
-		$real_var = &$var[$keyvar];
-		$real_name = &$var[$keyname];
-		$type = ucfirst(gettype($real_var));
-		echo "$indent$var_name <span style='color:#666666'>$type</span> = <span style='color:#e87800;'>&amp;$real_name</span><br>";
-	}
-	else{
-		$var = array($keyvar => $var, $keyname => $reference);
-		$avar = &$var[$keyvar];
-		$type = ucfirst(gettype($avar));
-		if($type == "String") $type_color = "<span style='color:green'>";
-		elseif($type == "Integer") $type_color = "<span style='color:red'>";
-		elseif($type == "Double"){ $type_color = "<span style='color:#0099c5'>"; $type = "Float"; }
-		elseif($type == "Boolean") $type_color = "<span style='color:#92008d'>";
-		elseif($type == "NULL") $type_color = "<span style='color:black'>";
-		
-		if(is_array($avar)){
-			$count = count($avar);
-			echo "$indent" . ($var_name ? "$var_name => ":"") . "<span style='color:#666666'>$type ($count)</span><br>$indent(<br>";
-			$keys = array_keys($avar);
-			foreach($keys as $name){
-			    $value = &$avar[$name];
-			    dumpit($value, "['$name']", $indent.$do_dump_indent, $reference);
+if(function_exists('dumpit')){
+	function dumpit(&$var, $var_name = NULL, $indent = NULL, $reference = NULL){
+		$do_dump_indent = "<span style='color:#666666;'>|</span> &nbsp;&nbsp; ";
+		$reference = $reference.$var_name;
+		$keyvar = 'the_do_dump_recursion_protection_scheme'; $keyname = 'referenced_object_name';
+		echo "<div style='text-align:left; background-color:white; font: 100% monospace; color:black;'>";
+		if (is_array($var) && isset($var[$keyvar])){
+			$real_var = &$var[$keyvar];
+			$real_name = &$var[$keyname];
+			$type = ucfirst(gettype($real_var));
+			echo "$indent$var_name <span style='color:#666666'>$type</span> = <span style='color:#e87800;'>&amp;$real_name</span><br>";
+		}
+		else{
+			$var = array($keyvar => $var, $keyname => $reference);
+			$avar = &$var[$keyvar];
+			$type = ucfirst(gettype($avar));
+			if($type == "String") $type_color = "<span style='color:green'>";
+			elseif($type == "Integer") $type_color = "<span style='color:red'>";
+			elseif($type == "Double"){ $type_color = "<span style='color:#0099c5'>"; $type = "Float"; }
+			elseif($type == "Boolean") $type_color = "<span style='color:#92008d'>";
+			elseif($type == "NULL") $type_color = "<span style='color:black'>";
+			
+			if(is_array($avar)){
+				$count = count($avar);
+				echo "$indent" . ($var_name ? "$var_name => ":"") . "<span style='color:#666666'>$type ($count)</span><br>$indent(<br>";
+				$keys = array_keys($avar);
+				foreach($keys as $name){
+				    $value = &$avar[$name];
+				    dumpit($value, "['$name']", $indent.$do_dump_indent, $reference);
+				}
+				echo "$indent)<br>";
 			}
-			echo "$indent)<br>";
+			elseif(is_object($avar)){
+				echo "$indent$var_name <span style='color:#666666'>$type</span><br>$indent(<br>";
+				foreach($avar as $name=>$value) dumpit($value, "$name", $indent.$do_dump_indent, $reference);
+				echo "$indent)<br>";
+			}
+			elseif(is_int($avar)) echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> $type_color".htmlentities($avar)."</span><br>";
+			elseif(is_string($avar)) echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> $type_color\"".htmlentities($avar)."\"</span><br>";
+			elseif(is_float($avar)) echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> $type_color".htmlentities($avar)."</span><br>";
+			elseif(is_bool($avar)) echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> $type_color".($avar == 1 ? "TRUE":"FALSE")."</span><br>";
+			elseif(is_null($avar)) echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> {$type_color}NULL</span><br>";
+			else echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> ".htmlentities($avar)."<br>";
+			$var = $var[$keyvar];
 		}
-		elseif(is_object($avar)){
-			echo "$indent$var_name <span style='color:#666666'>$type</span><br>$indent(<br>";
-			foreach($avar as $name=>$value) dumpit($value, "$name", $indent.$do_dump_indent, $reference);
-			echo "$indent)<br>";
-		}
-		elseif(is_int($avar)) echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> $type_color".htmlentities($avar)."</span><br>";
-		elseif(is_string($avar)) echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> $type_color\"".htmlentities($avar)."\"</span><br>";
-		elseif(is_float($avar)) echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> $type_color".htmlentities($avar)."</span><br>";
-		elseif(is_bool($avar)) echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> $type_color".($avar == 1 ? "TRUE":"FALSE")."</span><br>";
-		elseif(is_null($avar)) echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> {$type_color}NULL</span><br>";
-		else echo "$indent$var_name = <span style='color:#666666'>$type(".strlen($avar).")</span> ".htmlentities($avar)."<br>";
-		$var = $var[$keyvar];
+		echo '</div>';
 	}
-	echo '</div>';
 }
 
 ?>

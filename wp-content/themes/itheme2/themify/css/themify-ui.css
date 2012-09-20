@@ -46,7 +46,8 @@ img {
 /* Component containers << overwrite jquery-ui styling to avoid conflicts
 ----------------------------------*/
 #themify ui-widget { font-family: inherit; font-size: inherit; }
-#themify .ui-widget input, #themify .ui-widget select, #themify .ui-widget textarea, #themify .ui-widget button { font-family: inherit; font-size: inherit; }
+#themify .ui-widget input, #themify .ui-widget select, #themify .ui-widget button { font-family: inherit; font-size: inherit; }
+#themify .ui-widget textarea{ font-family: "Lucida Console", Monaco, "Courier New", Courier, monospace; }
 #themify .ui-widget-content { border: inherit; background: inherit; font-family: inherit; color: inherit; }
 #themify .ui-widget-content a { color: inherit; }
 #themify .ui-widget-header { border: inherit; background: none; color: inherit; font-weight: inherit; }

@@ -704,10 +704,14 @@ POST
   text-decoration: none;
 }
 
+.ai1ec-calendar-link.btn,
+.single-ai1ec_event .post-nav{
+  display: none;
+}
 /* post date */
-.post-date {
-  font-weight: bold;
-  margin: 10px 0 5px;
+
+.single-ai1ec_event .post-date {
+  display: none;
 }
 .list-post .post-date {
   float: left;

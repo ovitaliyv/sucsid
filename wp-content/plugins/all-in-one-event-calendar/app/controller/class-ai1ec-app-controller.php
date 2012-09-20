@@ -92,7 +92,7 @@ class Ai1ec_App_Controller {
 
 		// Load plugin text domain
 		
-    //$this->load_textdomain();
+    $this->load_textdomain();
 
 		// Install/update database schema as necessary
 		$this->install_schema();
@@ -136,6 +136,7 @@ class Ai1ec_App_Controller {
 		// Load plugin text domain
 		add_action( 'init',                                     array( &$this, 'load_textdomain' ) );
     add_action( 'admin_bar_init',                           array( &$this, 'load_textdomain' ) );
+    add_action( 'ai1ec_general_settings_before',            array( &$this, 'load_textdomain' ) );
 		// Load back-end javascript files
 		add_action( 'init',                                     array( &$this, 'load_admin_js' ) );
 		// Load the scripts for the backend for wordpress version < 3.3

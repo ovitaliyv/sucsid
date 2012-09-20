@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: All-in-One Event Calendar by Timely v1.8.3-premium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-09-19 16:25:03+0200\n"
+"PO-Revision-Date: 2012-09-20 13:22:28+0200\n"
 "Last-Translator: admin <vetalreal@ukr.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -710,7 +710,7 @@ msgstr ""
 #: app/helper/class-ai1ec-events-helper.php:395
 #@ all-in-one-event-calendar
 msgid "Every day"
-msgstr ""
+msgstr "Каждый день"
 
 #: app/helper/class-ai1ec-events-helper.php:374
 #: app/helper/class-ai1ec-events-helper.php:396
@@ -764,52 +764,52 @@ msgstr ""
 #: app/helper/class-ai1ec-events-helper.php:531
 #@ all-in-one-event-calendar
 msgid "Sunday"
-msgstr ""
+msgstr "Воскресенье"
 
 #: app/helper/class-ai1ec-events-helper.php:532
 #@ all-in-one-event-calendar
 msgid "Monday"
-msgstr ""
+msgstr "Понедельни"
 
 #: app/helper/class-ai1ec-events-helper.php:533
 #@ all-in-one-event-calendar
 msgid "Tuesday"
-msgstr ""
+msgstr "Вторник"
 
 #: app/helper/class-ai1ec-events-helper.php:534
 #@ all-in-one-event-calendar
 msgid "Wednesday"
-msgstr ""
+msgstr "Среда"
 
 #: app/helper/class-ai1ec-events-helper.php:535
 #@ all-in-one-event-calendar
 msgid "Thursday"
-msgstr ""
+msgstr "Четверг"
 
 #: app/helper/class-ai1ec-events-helper.php:536
 #@ all-in-one-event-calendar
 msgid "Friday"
-msgstr ""
+msgstr "Пятница"
 
 #: app/helper/class-ai1ec-events-helper.php:537
 #@ all-in-one-event-calendar
 msgid "Saturday"
-msgstr ""
+msgstr "Суббота"
 
 #: app/helper/class-ai1ec-events-helper.php:539
 #@ all-in-one-event-calendar
 msgid "day"
-msgstr ""
+msgstr "день"
 
 #: app/helper/class-ai1ec-events-helper.php:540
 #@ all-in-one-event-calendar
 msgid "weekday"
-msgstr ""
+msgstr "день недели"
 
 #: app/helper/class-ai1ec-events-helper.php:541
 #@ all-in-one-event-calendar
 msgid "weekend day"
-msgstr ""
+msgstr "выходной"
 
 #: app/helper/class-ai1ec-events-helper.php:607
 #: app/helper/class-ai1ec-events-helper.php:624
@@ -847,7 +847,7 @@ msgstr ""
 #: app/helper/class-ai1ec-events-helper.php:649
 #@ all-in-one-event-calendar
 msgid "day(s)"
-msgstr ""
+msgstr "день(и)"
 
 #: app/helper/class-ai1ec-events-helper.php:678
 #@ all-in-one-event-calendar
@@ -922,13 +922,13 @@ msgstr ""
 #: app/helper/class-ai1ec-events-helper.php:1772
 #@ all-in-one-event-calendar
 msgid "Every other day"
-msgstr ""
+msgstr "Все остальные дни"
 
 #: app/helper/class-ai1ec-events-helper.php:1774
 #, php-format
 #@ all-in-one-event-calendar
 msgid "Every %d days"
-msgstr ""
+msgstr "Каждые %d дня(дней)"
 
 #: app/helper/class-ai1ec-events-helper.php:1784
 #@ all-in-one-event-calendar
@@ -1106,7 +1106,7 @@ msgstr ""
 #: themes-ai1ec/vortex/agenda.php:71
 #@ all-in-one-event-calendar
 msgid " (all-day)"
-msgstr ""
+msgstr " (весь-день)"
 
 #: app/model/class-ai1ec-settings.php:424
 #@ all-in-one-event-calendar
@@ -1976,7 +1976,7 @@ msgstr ""
 #: app/view/admin/box_time_and_date.php:8
 #@ all-in-one-event-calendar
 msgid "All-day event"
-msgstr ""
+msgstr "Событие на весь день"
 
 #: app/view/admin/box_time_and_date.php:18
 #@ all-in-one-event-calendar
@@ -2196,12 +2196,12 @@ msgstr ""
 #: app/view/admin/row_monthly.php:9
 #@ all-in-one-event-calendar
 msgid "On day of the month"
-msgstr ""
+msgstr "В день месяца"
 
 #: app/view/admin/row_monthly.php:13
 #@ all-in-one-event-calendar
 msgid "On day of the week"
-msgstr ""
+msgstr "В день недели"
 
 #: app/view/admin/row_weekly.php:6
 #@ all-in-one-event-calendar
@@ -2657,7 +2657,7 @@ msgstr "Весь день"
 #: themes-ai1ec/vortex/week.php:73
 #@ all-in-one-event-calendar
 msgid "(all-day)"
-msgstr ""
+msgstr "(весь день)"
 
 #: themes-ai1ec/vortex/agenda-widget.php:106
 #@ all-in-one-event-calendar
@@ -2831,7 +2831,7 @@ msgstr "Добавить это событие в вашу любимую про
 #: themes-ai1ec/vortex/event-single.php:33
 #@ all-in-one-event-calendar
 msgid "✔ Add to Calendar"
-msgstr "✔ в Календарь"
+msgstr "✔ Добавить в Календарь"
 
 #: themes-ai1ec/vortex/event-single.php:36
 #@ all-in-one-event-calendar
@@ -2847,7 +2847,7 @@ msgstr " в Google Calendar"
 #: themes-ai1ec/vortex/week.php:34
 #@ all-in-one-event-calendar
 msgid "All-day"
-msgstr ""
+msgstr "Весь день"
 
 #: themes-ai1ec/vortex/oneday.php:57
 #: themes-ai1ec/vortex/oneday.php:148
@@ -2855,7 +2855,7 @@ msgstr ""
 #: themes-ai1ec/vortex/week.php:150
 #@ all-in-one-event-calendar
 msgid "Summary:"
-msgstr ""
+msgstr "Анонс:"
 
 #: themes-ai1ec/vortex/oneday.php:60
 #: themes-ai1ec/vortex/oneday.php:151
@@ -2863,5 +2863,5 @@ msgstr ""
 #: themes-ai1ec/vortex/week.php:153
 #@ all-in-one-event-calendar
 msgid "click anywhere for details"
-msgstr ""
+msgstr "для подробностей щелкните в любом месте"
 

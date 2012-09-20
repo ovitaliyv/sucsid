@@ -1012,6 +1012,7 @@
 			$title = apply_filters('widget_title', $instance['title'] );
 			$username = $instance['username'];
 			$show_count = $instance['show_count'];
+			$show_link = $instance['show_link'];
 	
 			/* Before widget (defined by themes). */
 			echo $before_widget;
@@ -1024,6 +1025,8 @@
 			echo '<div id="flickr_badge_wrapper" class="clearfix">
 					<script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count='.$show_count.'.&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user='.$username.'"></script>
 				</div>';
+			if( $show_link )
+				echo '<a href="http://www.flickr.com/photos/'.$username.'/">' . __('View my Flickr photostream', 'themify') . '</a>';
 	
 			/* After widget (defined by themes). */
 			echo $after_widget;
@@ -1040,7 +1043,7 @@
 			$instance['title'] = strip_tags( $new_instance['title'] );
 			$instance['username'] = $new_instance['username'];
 			$instance['show_count'] = $new_instance['show_count'];
-	
+			$instance['show_link'] = $new_instance['show_link'];
 			return $instance;
 		}
 		
@@ -1067,6 +1070,11 @@
 			<p>
 				<label for="<?php echo $this->get_field_id( 'show_count' ); ?>"><?php _e('Show:', 'themify'); ?></label>
 				<input id="<?php echo $this->get_field_id( 'show_count' ); ?>" name="<?php echo $this->get_field_name( 'show_count' ); ?>" value="<?php echo $instance['show_count']; ?>" size="2" /> <?php _e('photos', 'themify'); ?>
+			</p>
+			
+			<p>
+				<input class="checkbox" type="checkbox" <?php checked( $instance['show_link'], 'on' ); ?> id="<?php echo $this->get_field_id( 'show_link' ); ?>" name="<?php echo $this->get_field_name( 'show_link' ); ?>" />
+				<label for="<?php echo $this->get_field_id( 'show_link' ); ?>"><?php _e('Show link to account', 'themify'); ?></label>
 			</p>
 	
 			<?php

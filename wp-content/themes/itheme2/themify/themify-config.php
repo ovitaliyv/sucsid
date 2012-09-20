@@ -33,7 +33,7 @@
 
 /* 	Theme Config
  ***************************************************************************/
-	$version = "1.1.9";
+	$version = "1.2.1";
 	$theme = get_theme_data(TEMPLATEPATH . '/style.css');
 
 /* 	Themify Framework Path and URI
@@ -148,8 +148,8 @@ if( is_admin() ){
 	 * Display additional ID column in categories list
 	 * @since 1.1.8
 	 */
-	add_filter('manage_edit-category_columns', 'custom_category_header', 10, 2);
-	add_filter('manage_category_custom_column', 'custom_category', 10, 3);
+	add_filter('manage_edit-category_columns', 'themify_custom_category_header', 10, 2);
+	add_filter('manage_category_custom_column', 'themify_custom_category', 10, 3);
 	
 	/**
  	* Ajaxify admin

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: All-in-One Event Calendar by Timely v1.8.3-premium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-09-20 13:22:28+0200\n"
+"PO-Revision-Date: 2012-09-21 11:43:23+0200\n"
 "Last-Translator: admin <vetalreal@ukr.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1628,7 +1628,7 @@ msgstr ""
 #: app/view/admin/box_event_contact.php:7
 #@ all-in-one-event-calendar
 msgid "Contact name:"
-msgstr ""
+msgstr "Контактное лицо:"
 
 #: app/view/admin/box_event_contact.php:17
 #@ all-in-one-event-calendar
@@ -2364,7 +2364,7 @@ msgstr ""
 #, php-format
 #@ all-in-one-event-calendar
 msgid "Only the active theme is available to you. Contact the <em>%s</em> administrator to add more themes."
-msgstr ""
+msgstr "Только активная тема доступно для Вас. Связаться с <em>%s</em> администратором, чтобы добавить больше тем."
 
 #: lib/class-ai1ec-themes-list-table.php:277
 #, php-format
@@ -2800,7 +2800,7 @@ msgstr ""
 #: themes-ai1ec/vortex/event-single.php:51
 #@ all-in-one-event-calendar
 msgid "Contact:"
-msgstr ""
+msgstr "Контакты:"
 
 #: themes-ai1ec/vortex/event-single-footer.php:4
 #, php-format

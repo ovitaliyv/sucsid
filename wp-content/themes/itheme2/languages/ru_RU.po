@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iTheme2 v1.2.4\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tags/twentyeleven\n"
 "POT-Creation-Date: 2012-06-10 15:18:15+00:00\n"
-"PO-Revision-Date: 2012-09-19 14:51:39+0200\n"
+"PO-Revision-Date: 2012-09-21 14:08:41+0200\n"
 "Last-Translator: Sergey Biryukov <sergeybiryukov.ru@gmail.com>\n"
 "Language-Team: ru.wordpress.org <sergeybiryukov.ru@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -64,8 +64,8 @@ msgstr "Ваш комментарий ожидает проверки."
 #: themify/themify-widgets.php:635
 #: themify/themify-widgets.php:757
 #: themify/themify-widgets.php:952
-#: themify/themify-widgets.php:1057
-#: themify/themify-widgets.php:1213
+#: themify/themify-widgets.php:1060
+#: themify/themify-widgets.php:1221
 #@ themify
 msgid "Title:"
 msgstr "Заголовок:"
@@ -109,12 +109,6 @@ msgstr "Ваш email"
 #@ themify
 msgid "Your Website"
 msgstr "Ваш веб-сайт"
-
-#: comments.php:73
-#, php-format
-#@ default
-msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\">Log out?</a>"
-msgstr "Авторизован как <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\">Выйтиt?</a>"
 
 #: comments.php:74
 #@ themify
@@ -254,7 +248,7 @@ msgstr ""
 #: theme-modules.php:411
 #: theme-modules.php:468
 #: theme-modules.php:670
-#: themify/themify-modules.php:295
+#: themify/themify-modules.php:298
 #: themify/tinymce/dialog.php:324
 #: themify/tinymce/dialog.php:353
 #: themify/tinymce/dialog.php:423
@@ -291,7 +285,7 @@ msgstr ""
 #: theme-modules.php:412
 #: theme-modules.php:469
 #: theme-modules.php:671
-#: themify/themify-modules.php:296
+#: themify/themify-modules.php:299
 #: themify/tinymce/dialog.php:325
 #: themify/tinymce/dialog.php:354
 #: themify/tinymce/dialog.php:424
@@ -432,8 +426,8 @@ msgstr ""
 
 #: theme-functions.php:321
 #: theme-modules.php:474
-#: themify/themify-modules.php:758
-#: themify/themify-modules.php:793
+#: themify/themify-modules.php:761
+#: themify/themify-modules.php:796
 #@ themify
 msgid "None"
 msgstr ""
@@ -521,9 +515,9 @@ msgid "Fast"
 msgstr ""
 
 #: theme-modules.php:121
-#: themify/themify-modules.php:646
-#: themify/themify-modules.php:673
-#: themify/themify-modules.php:700
+#: themify/themify-modules.php:649
+#: themify/themify-modules.php:676
+#: themify/themify-modules.php:703
 #: themify/tinymce/dialog.php:521
 #: themify/tinymce/dialog.php:698
 #@ themify
@@ -591,7 +585,7 @@ msgstr ""
 #: theme-modules.php:182
 #: themify/themify-modules.php:44
 #: themify/themify-modules.php:65
-#: themify/themify-modules.php:462
+#: themify/themify-modules.php:465
 #@ themify
 msgid "+ Upload"
 msgstr ""
@@ -695,8 +689,8 @@ msgid "Query Categories"
 msgstr ""
 
 #: theme-modules.php:545
-#: themify/themify-modules.php:189
-#: themify/themify-modules.php:222
+#: themify/themify-modules.php:192
+#: themify/themify-modules.php:225
 #@ themify
 msgid "Use minus sign (-) to exclude categories."
 msgstr ""
@@ -1201,420 +1195,420 @@ msgstr ""
 msgid "Useful if you need to add additional scripts such as CSS or JS."
 msgstr ""
 
-#: themify/themify-modules.php:146
+#: themify/themify-modules.php:147
 #@ themify
 msgid "The following code will be added to the footer before the closing &lt;/body&gt; tag."
 msgstr ""
 
-#: themify/themify-modules.php:148
+#: themify/themify-modules.php:149
 #@ themify
 msgid "Useful if you need to Javascript or tracking code."
 msgstr ""
 
-#: themify/themify-modules.php:185
+#: themify/themify-modules.php:188
 #@ themify
 msgid "Search in Category IDs"
 msgstr ""
 
-#: themify/themify-modules.php:190
+#: themify/themify-modules.php:193
 #@ themify
 msgid "Example: (1,4,-7) = search only in Category 1 &amp; 4, and exclude Category 7."
 msgstr ""
 
-#: themify/themify-modules.php:192
+#: themify/themify-modules.php:195
 #@ themify
 msgid "Exclude Pages in search results"
 msgstr ""
 
-#: themify/themify-modules.php:220
+#: themify/themify-modules.php:223
 #@ themify
 msgid "Feed Category"
 msgstr ""
 
-#: themify/themify-modules.php:223
+#: themify/themify-modules.php:226
 #@ themify
 msgid "Example: (2,-9) = include only Category 2 in feeds and exclude Category 9."
 msgstr ""
 
-#: themify/themify-modules.php:225
+#: themify/themify-modules.php:228
 #@ themify
 msgid "Post Image in RSS"
 msgstr ""
 
-#: themify/themify-modules.php:225
+#: themify/themify-modules.php:228
 #@ themify
 msgid "Exclude post image in RSS feeds"
 msgstr ""
 
-#: themify/themify-modules.php:227
+#: themify/themify-modules.php:230
 #@ themify
 msgid "Check this to exclude post image in RSS feeds"
 msgstr ""
 
-#: themify/themify-modules.php:283
-#: themify/themify-modules.php:538
-#: themify/themify-modules.php:566
+#: themify/themify-modules.php:286
+#: themify/themify-modules.php:541
+#: themify/themify-modules.php:569
 #@ themify
 msgid "Center"
 msgstr ""
 
-#: themify/themify-modules.php:284
-#: themify/themify-modules.php:562
+#: themify/themify-modules.php:287
+#: themify/themify-modules.php:565
 #@ themify
 msgid "Top"
 msgstr ""
 
-#: themify/themify-modules.php:285
+#: themify/themify-modules.php:288
 #@ themify
 msgid "Top Right"
 msgstr ""
 
-#: themify/themify-modules.php:286
+#: themify/themify-modules.php:289
 #@ themify
 msgid "Top Left"
 msgstr ""
 
-#: themify/themify-modules.php:287
-#: themify/themify-modules.php:570
+#: themify/themify-modules.php:290
+#: themify/themify-modules.php:573
 #@ themify
 msgid "Bottom"
 msgstr ""
 
-#: themify/themify-modules.php:288
+#: themify/themify-modules.php:291
 #@ themify
 msgid "Bottom Right"
 msgstr ""
 
-#: themify/themify-modules.php:289
+#: themify/themify-modules.php:292
 #@ themify
 msgid "Bottom Left"
 msgstr ""
 
-#: themify/themify-modules.php:290
-#: themify/themify-modules.php:534
+#: themify/themify-modules.php:293
+#: themify/themify-modules.php:537
 #@ themify
 msgid "Left"
 msgstr ""
 
-#: themify/themify-modules.php:291
-#: themify/themify-modules.php:542
+#: themify/themify-modules.php:294
+#: themify/themify-modules.php:545
 #@ themify
 msgid "Right"
 msgstr ""
 
-#: themify/themify-modules.php:300
-#: themify/themify-utils.php:1179
-#: themify/themify-utils.php:2144
+#: themify/themify-modules.php:303
+#: themify/themify-utils.php:1178
+#: themify/themify-utils.php:2143
 #: themify/tinymce/dialog.php:445
 #: themify/tinymce/dialog.php:594
 #@ themify
 msgid "Thumbnail"
 msgstr ""
 
-#: themify/themify-modules.php:301
-#: themify/themify-utils.php:1180
-#: themify/themify-utils.php:2145
+#: themify/themify-modules.php:304
+#: themify/themify-utils.php:1179
+#: themify/themify-utils.php:2144
 #: themify/tinymce/dialog.php:446
 #: themify/tinymce/dialog.php:595
 #@ themify
 msgid "Medium"
 msgstr ""
 
-#: themify/themify-modules.php:302
-#: themify/themify-utils.php:1181
-#: themify/themify-utils.php:2146
+#: themify/themify-modules.php:305
+#: themify/themify-utils.php:1180
+#: themify/themify-utils.php:2145
 #: themify/tinymce/dialog.php:447
 #: themify/tinymce/dialog.php:596
 #@ themify
 msgid "Large"
 msgstr ""
 
-#: themify/themify-modules.php:303
-#: themify/themify-utils.php:1182
-#: themify/themify-utils.php:2147
+#: themify/themify-modules.php:306
+#: themify/themify-utils.php:1181
+#: themify/themify-utils.php:2146
 #@ themify
 msgid "Original Image"
 msgstr ""
 
-#: themify/themify-modules.php:314
+#: themify/themify-modules.php:317
 #@ themify
 msgid "Disable img.php globally"
 msgstr ""
 
-#: themify/themify-modules.php:315
+#: themify/themify-modules.php:318
 #@ themify
 msgid "(WordPress Featured Image or original images will be used)"
 msgstr ""
 
-#: themify/themify-modules.php:319
+#: themify/themify-modules.php:322
 #@ themify
 msgid "Default Featured Image Size"
 msgstr ""
 
-#: themify/themify-modules.php:336
+#: themify/themify-modules.php:339
 #@ themify
 msgid "Image Quality"
 msgstr ""
 
-#: themify/themify-modules.php:338
+#: themify/themify-modules.php:341
 #@ themify
 msgid "max 100 (higher = better quality, but bigger file size)"
 msgstr ""
 
-#: themify/themify-modules.php:341
+#: themify/themify-modules.php:344
 #@ themify
 msgid "Cropping Alignment"
 msgstr ""
 
-#: themify/themify-modules.php:353
+#: themify/themify-modules.php:356
 #@ themify
 msgid "Vertical Cropping"
 msgstr ""
 
-#: themify/themify-modules.php:364
+#: themify/themify-modules.php:367
 #@ themify
 msgid "(Select 'no' to disable vertical cropping globally)"
 msgstr ""
 
-#: themify/themify-modules.php:457
+#: themify/themify-modules.php:460
 #@ themify
 msgid "Background-image"
 msgstr ""
 
-#: themify/themify-modules.php:460
+#: themify/themify-modules.php:463
 #@ themify
 msgid "No BG image"
 msgstr ""
 
-#: themify/themify-modules.php:475
-#: themify/themify-modules.php:481
+#: themify/themify-modules.php:478
+#: themify/themify-modules.php:484
 #@ themify
 msgid "Background-color"
 msgstr ""
 
-#: themify/themify-modules.php:477
-#: themify/themify-modules.php:483
+#: themify/themify-modules.php:480
+#: themify/themify-modules.php:486
 #@ themify
 msgid "Transparent"
 msgstr ""
 
-#: themify/themify-modules.php:498
+#: themify/themify-modules.php:501
 #@ themify
 msgid "Repeat"
 msgstr ""
 
-#: themify/themify-modules.php:502
+#: themify/themify-modules.php:505
 #@ themify
 msgid "Repeat X"
 msgstr ""
 
-#: themify/themify-modules.php:506
+#: themify/themify-modules.php:509
 #@ themify
 msgid "Repeat Y"
 msgstr ""
 
-#: themify/themify-modules.php:510
+#: themify/themify-modules.php:513
 #@ themify
 msgid "Do not repeat"
 msgstr ""
 
-#: themify/themify-modules.php:513
+#: themify/themify-modules.php:516
 #@ themify
 msgid "Background-repeat"
 msgstr ""
 
-#: themify/themify-modules.php:545
+#: themify/themify-modules.php:548
 #@ themify
 msgid "Background-position"
 msgstr ""
 
-#: themify/themify-modules.php:604
+#: themify/themify-modules.php:607
 #@ themify
 msgid "Font family"
 msgstr ""
 
-#: themify/themify-modules.php:624
+#: themify/themify-modules.php:627
 #@ themify
 msgid "Font-size"
 msgstr ""
 
-#: themify/themify-modules.php:650
+#: themify/themify-modules.php:653
 #@ themify
 msgid "Bold"
 msgstr ""
 
-#: themify/themify-modules.php:653
+#: themify/themify-modules.php:656
 #@ themify
 msgid "Font-weight"
 msgstr ""
 
-#: themify/themify-modules.php:677
+#: themify/themify-modules.php:680
 #@ themify
 msgid "Italic"
 msgstr ""
 
-#: themify/themify-modules.php:680
+#: themify/themify-modules.php:683
 #@ themify
 msgid "Font-Style"
 msgstr ""
 
-#: themify/themify-modules.php:704
+#: themify/themify-modules.php:707
 #@ themify
 msgid "Small Caps"
 msgstr ""
 
-#: themify/themify-modules.php:707
+#: themify/themify-modules.php:710
 #@ themify
 msgid "Font-variant"
 msgstr ""
 
-#: themify/themify-modules.php:725
+#: themify/themify-modules.php:728
 #@ themify
 msgid "Line-height"
 msgstr ""
 
-#: themify/themify-modules.php:746
+#: themify/themify-modules.php:749
 #@ themify
 msgid "Capitalize"
 msgstr ""
 
-#: themify/themify-modules.php:750
+#: themify/themify-modules.php:753
 #@ themify
 msgid "Uppercase"
 msgstr ""
 
-#: themify/themify-modules.php:754
+#: themify/themify-modules.php:757
 #@ themify
 msgid "Lowercase"
 msgstr ""
 
-#: themify/themify-modules.php:761
+#: themify/themify-modules.php:764
 #@ themify
 msgid "Text-transform"
 msgstr ""
 
-#: themify/themify-modules.php:781
+#: themify/themify-modules.php:784
 #@ themify
 msgid "Underline"
 msgstr ""
 
-#: themify/themify-modules.php:785
+#: themify/themify-modules.php:788
 #@ themify
 msgid "Overline"
 msgstr ""
 
-#: themify/themify-modules.php:789
+#: themify/themify-modules.php:792
 #@ themify
 msgid "Line through"
 msgstr ""
 
-#: themify/themify-modules.php:796
+#: themify/themify-modules.php:799
 #@ themify
 msgid "Text-decoration"
 msgstr ""
 
-#: themify/themify-modules.php:813
+#: themify/themify-modules.php:816
 #@ themify
 msgid "Color"
 msgstr ""
 
-#: themify/themify-modules.php:829
+#: themify/themify-modules.php:832
 #@ themify
 msgid "Padding"
 msgstr ""
 
-#: themify/themify-modules.php:842
-#: themify/themify-modules.php:875
-#: themify/themify-modules.php:1023
+#: themify/themify-modules.php:845
+#: themify/themify-modules.php:878
+#: themify/themify-modules.php:1026
 #@ themify
 msgid "Same for all"
 msgstr ""
 
-#: themify/themify-modules.php:862
+#: themify/themify-modules.php:865
 #@ themify
 msgid "Margin"
 msgstr ""
 
-#: themify/themify-modules.php:888
+#: themify/themify-modules.php:891
 #@ themify
 msgid "Height"
 msgstr ""
 
-#: themify/themify-modules.php:908
+#: themify/themify-modules.php:911
 #@ themify
 msgid "Width"
 msgstr ""
 
-#: themify/themify-modules.php:936
+#: themify/themify-modules.php:939
 #@ themify
 msgid "Solid"
 msgstr ""
 
-#: themify/themify-modules.php:940
+#: themify/themify-modules.php:943
 #@ themify
 msgid "Dashed"
 msgstr ""
 
-#: themify/themify-modules.php:944
+#: themify/themify-modules.php:947
 #@ themify
 msgid "Dotted"
 msgstr ""
 
-#: themify/themify-modules.php:948
+#: themify/themify-modules.php:951
 #@ themify
 msgid "Double"
 msgstr ""
 
-#: themify/themify-modules.php:952
+#: themify/themify-modules.php:955
 #@ themify
 msgid "Border"
 msgstr ""
 
-#: themify/themify-modules.php:978
-#: themify/themify-modules.php:1057
+#: themify/themify-modules.php:981
+#: themify/themify-modules.php:1060
 #@ themify
 msgid "top"
 msgstr ""
 
-#: themify/themify-modules.php:991
-#: themify/themify-modules.php:1071
+#: themify/themify-modules.php:994
+#: themify/themify-modules.php:1074
 #@ themify
 msgid "right"
 msgstr ""
 
-#: themify/themify-modules.php:1004
-#: themify/themify-modules.php:1061
+#: themify/themify-modules.php:1007
+#: themify/themify-modules.php:1064
 #@ themify
 msgid "bottom"
 msgstr ""
 
-#: themify/themify-modules.php:1017
-#: themify/themify-modules.php:1067
+#: themify/themify-modules.php:1020
+#: themify/themify-modules.php:1070
 #@ themify
 msgid "left"
 msgstr ""
 
-#: themify/themify-modules.php:1038
+#: themify/themify-modules.php:1041
 #@ themify
 msgid "static"
 msgstr ""
 
-#: themify/themify-modules.php:1042
+#: themify/themify-modules.php:1045
 #@ themify
 msgid "fixed"
 msgstr ""
 
-#: themify/themify-modules.php:1046
+#: themify/themify-modules.php:1049
 #@ themify
 msgid "relative"
 msgstr ""
 
-#: themify/themify-modules.php:1050
+#: themify/themify-modules.php:1053
 #@ themify
 msgid "absolute"
 msgstr ""
 
-#: themify/themify-modules.php:1077
+#: themify/themify-modules.php:1080
 #@ themify
 msgid "Position"
 msgstr ""
@@ -1780,45 +1774,45 @@ msgstr ""
 msgid "No Skin"
 msgstr ""
 
-#: themify/themify-utils.php:506
+#: themify/themify-utils.php:505
 #@ themify
 msgid "No Values in the Database"
 msgstr ""
 
-#: themify/themify-utils.php:953
+#: themify/themify-utils.php:952
 #@ themify
 msgid "Themify Custom Panel"
 msgstr ""
 
-#: themify/themify-utils.php:1134
-#: themify/themify-utils.php:1138
+#: themify/themify-utils.php:1133
+#: themify/themify-utils.php:1137
 #@ themify
 msgid "Post Image"
 msgstr ""
 
-#: themify/themify-utils.php:1150
-#: themify/themify-utils.php:2119
+#: themify/themify-utils.php:1149
+#: themify/themify-utils.php:2118
 #, php-format
 #@ themify
 msgid "Sorry, you have filled your %s MB storage quota so uploading has been disabled."
 msgstr ""
 
-#: themify/themify-utils.php:1154
+#: themify/themify-utils.php:1153
 #@ themify
 msgid "Upload"
 msgstr ""
 
-#: themify/themify-utils.php:1160
+#: themify/themify-utils.php:1159
 #@ themify
 msgid "Remove image"
 msgstr ""
 
-#: themify/themify-utils.php:2151
+#: themify/themify-utils.php:2150
 #@ themify
 msgid "Featured Image Size"
 msgstr ""
 
-#: themify/themify-utils.php:2240
+#: themify/themify-utils.php:2239
 #@ themify
 msgid "Can't load versions file."
 msgstr ""
@@ -1842,7 +1836,7 @@ msgstr ""
 #: themify/themify-widgets.php:177
 #: themify/themify-widgets.php:640
 #: themify/themify-widgets.php:962
-#: themify/themify-widgets.php:1068
+#: themify/themify-widgets.php:1071
 #@ themify
 msgid "Show:"
 msgstr ""
@@ -1853,7 +1847,7 @@ msgid "posts"
 msgstr ""
 
 #: themify/themify-widgets.php:183
-#: themify/themify-widgets.php:1219
+#: themify/themify-widgets.php:1227
 #@ themify
 msgid "Hide post title"
 msgstr ""
@@ -1864,31 +1858,31 @@ msgid "Display post date"
 msgstr ""
 
 #: themify/themify-widgets.php:193
-#: themify/themify-widgets.php:1234
+#: themify/themify-widgets.php:1242
 #@ themify
 msgid "Display post thumbnail"
 msgstr ""
 
 #: themify/themify-widgets.php:201
-#: themify/themify-widgets.php:1242
+#: themify/themify-widgets.php:1250
 #@ themify
 msgid "Thumbnail size"
 msgstr ""
 
 #: themify/themify-widgets.php:209
-#: themify/themify-widgets.php:1250
+#: themify/themify-widgets.php:1258
 #@ themify
 msgid "Display post excerpt"
 msgstr ""
 
 #: themify/themify-widgets.php:213
-#: themify/themify-widgets.php:1254
+#: themify/themify-widgets.php:1262
 #@ themify
 msgid "Excerpt character limit:"
 msgstr ""
 
 #: themify/themify-widgets.php:214
-#: themify/themify-widgets.php:1255
+#: themify/themify-widgets.php:1263
 #@ themify
 msgid "(leave empty = full excerpt)"
 msgstr ""
@@ -2359,53 +2353,53 @@ msgstr ""
 msgid "Themify - Flickr"
 msgstr ""
 
-#: themify/themify-widgets.php:1053
+#: themify/themify-widgets.php:1056
 #@ themify
 msgid "Recent Photos"
 msgstr ""
 
-#: themify/themify-widgets.php:1062
+#: themify/themify-widgets.php:1065
 #: themify/tinymce/dialog.php:366
 #@ themify
 msgid "Flickr ID:"
 msgstr ""
 
-#: themify/themify-widgets.php:1069
+#: themify/themify-widgets.php:1072
 #@ themify
 msgid "photos"
 msgstr ""
 
-#: themify/themify-widgets.php:1086
+#: themify/themify-widgets.php:1094
 #@ themify
 msgid "A list with the most commented posts."
 msgstr ""
 
-#: themify/themify-widgets.php:1088
+#: themify/themify-widgets.php:1096
 #@ themify
 msgid "Themify - Most Commented"
 msgstr ""
 
-#: themify/themify-widgets.php:1149
+#: themify/themify-widgets.php:1157
 #@ themify
 msgid "comments"
 msgstr ""
 
-#: themify/themify-widgets.php:1149
+#: themify/themify-widgets.php:1157
 #@ themify
 msgid "comment"
 msgstr ""
 
-#: themify/themify-widgets.php:1199
+#: themify/themify-widgets.php:1207
 #@ themify
 msgid "Most Commented Posts"
 msgstr ""
 
-#: themify/themify-widgets.php:1224
+#: themify/themify-widgets.php:1232
 #@ themify
 msgid "Display comment count"
 msgstr ""
 
-#: themify/themify-widgets.php:1228
+#: themify/themify-widgets.php:1236
 #@ themify
 msgid "Number of posts:"
 msgstr ""
@@ -2975,4 +2969,24 @@ msgstr ""
 #@ ilc
 msgid "Insert"
 msgstr ""
+
+#: header.php:37
+#@ themify
+msgid "Cross Regional Joint Project"
+msgstr "Межрегиональный совместный проект"
+
+#: themify/themify-widgets.php:1029
+#@ themify
+msgid "View my Flickr photostream"
+msgstr ""
+
+#: themify/themify-widgets.php:1077
+#@ themify
+msgid "Show link to account"
+msgstr ""
+
+#: header.php:39
+#@ themify
+msgid "Inter-university Start-up centers for students’ innovations development & promotion"
+msgstr "Создание сети межуниверситетских Start-Up центров для поддержки и продвижения студенческих инновационных проектов"
 

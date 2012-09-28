@@ -29,10 +29,19 @@
                 <?php if(themify_get('setting-site_logo') == 'image' && themify_check('setting-site_logo_image_value')){ ?>
                     <?php themify_image("src=".themify_get('setting-site_logo_image_value')."&w=".themify_get('setting-site_logo_width')."&h=".themify_get('setting-site_logo_height')."&alt=".get_bloginfo('name')."&before=<a href='".get_option('home')."'>&after=</a>"); ?>
                 <?php } else { ?>
-                     <a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a>
+              <a href="<?php echo get_option('home'); ?>/"><?php //bloginfo('name'); ?>SUCS<span class="star">I</span>D</a>
                 <?php } ?>
             </div>
-            <div id="site-description"><?php bloginfo('description'); ?></div>
+            <div id="site-description">
+              <?php //bloginfo('description'); ?>
+              <span class="project_type">
+                <?php _e('Cross Regional Joint Project', 'themify'); ?>
+              </span>
+              <span class="aim">
+                <?php _e('Inter-university Start-up centers for students’ innovations development & promotion', 'themify'); ?>
+                <br /><span class="project_id">530349-TEMPUS-1-2012-1-FR-TEMPUS-JPHES</span>
+              </span>
+            </div>
     
                     
             <div class="social-widget">

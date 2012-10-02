@@ -1683,7 +1683,7 @@ img.alignleft, img.aligncenter, img.alignright, img.alignnone, .wp-caption img,
 .page-content p,
 .page-content a,
 .page-content li{
-  font-size: 14px;
+  font-size: inherit;
   margin-bottom: 0;
   margin-top: 0;
 }

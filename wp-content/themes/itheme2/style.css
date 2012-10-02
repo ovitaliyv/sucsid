@@ -1683,7 +1683,7 @@ img.alignleft, img.aligncenter, img.alignright, img.alignnone, .wp-caption img,
 .page-content p,
 .page-content a,
 .page-content li{
-  font-size: inherit;
+  font-size: 14px;
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -1736,13 +1736,18 @@ img.alignleft, img.aligncenter, img.alignright, img.alignnone, .wp-caption img,
 }
 ul.participants li{
   list-style-type: none;
-  font-size: 16px;
   padding: 5px 10px 5px 30px;
   margin:5px;
   border: 1px solid #DDD;
   border-radius: 5px;
   position: relative;
   background: #232323 url(images/bgnoise.png) repeat center top;
+}
+ul.participants li,
+ul.participants li a,
+ul.participants li p
+{
+  font-size: 16px;
 }
 ul.participants li:hover{
   color: #000;

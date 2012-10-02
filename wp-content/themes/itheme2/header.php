@@ -29,7 +29,7 @@
                 <?php if(themify_get('setting-site_logo') == 'image' && themify_check('setting-site_logo_image_value')){ ?>
                     <?php themify_image("src=".themify_get('setting-site_logo_image_value')."&w=".themify_get('setting-site_logo_width')."&h=".themify_get('setting-site_logo_height')."&alt=".get_bloginfo('name')."&before=<a href='".get_option('home')."'>&after=</a>"); ?>
                 <?php } else { ?>
-              <a href="<?php echo get_option('home'); ?>/"><?php //bloginfo('name'); ?>SUCS<span class="star">I</span>D</a>
+              <a href="<?php echo get_option('home'); ?>"><?php //bloginfo('name'); ?>SUCS<span class="star">I</span>D</a>
                 <?php } ?>
             </div>
             <div id="site-description">

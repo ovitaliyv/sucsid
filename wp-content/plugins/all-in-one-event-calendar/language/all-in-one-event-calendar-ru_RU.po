@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: All-in-One Event Calendar by Timely v1.8.3-premium\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2012-09-21 11:43:23+0200\n"
+"PO-Revision-Date: 2012-09-28 15:36:56+0200\n"
 "Last-Translator: admin <vetalreal@ukr.net>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2621,7 +2621,7 @@ msgstr ""
 #@ facebook
 #@ all-in-one-event-calendar
 msgid "Read more"
-msgstr ""
+msgstr "Подробнее"
 
 #: themes-ai1ec/vortex/agenda-widget.php:12
 #@ all-in-one-event-calendar
@@ -2748,7 +2748,7 @@ msgstr ""
 #: themes-ai1ec/vortex/calendar.php:121
 #@ all-in-one-event-calendar
 msgid "Subscribe in Google Calendar"
-msgstr "Подписаться в Google Calendar"
+msgstr "в Google Calendar"
 
 #: themes-ai1ec/vortex/event-excerpt.php:2
 #: themes-ai1ec/vortex/event-multi.php:4

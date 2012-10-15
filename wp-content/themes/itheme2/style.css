@@ -1714,8 +1714,9 @@ img.alignleft, img.aligncenter, img.alignright, img.alignnone, .wp-caption img,
 }
 
 .section .vcard{
+  padding-right: 5px;
   float: left;
-  width: 47%;
+  width: 46%;
   overflow: auto;
 }
 .section .vcard,

@@ -450,6 +450,17 @@
   #site-description .project_type{
     display: inline;
   }
+  
+  #content .section .vcard{
+    width: 100%;
+    padding: 0 0 5px;
+  }
+  #content .section .vcard:last-child{
+    border-left:none;
+    border-top: 1px solid #DDD;
+    padding: 0;
+    padding-top: 5px;
+  }
 }
 
 @media screen and (min-width: 481px) {

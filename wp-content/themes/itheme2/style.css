@@ -139,25 +139,25 @@ input[type=reset], input[type=submit], button {
   border: none;
   padding: 5px 7px;
   cursor: pointer;
-  color: #fff;
+  color: #333;
   padding: 5px 20px;
   cursor: pointer;
-  border: solid 1px #333;
-  background: #888;
-  background: -webkit-gradient(linear, left top, left bottom, from(#888), to(#444));
-  background: -moz-linear-gradient(top,  #888,  #444);
-  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#888888', endColorstr='#444444');
+  border: solid 1px #bbb;
+  background: #D7D7D7;
+  background: -webkit-gradient(linear, left top, left bottom, from(#D7D7D7), to(#BBBBBB));
+  background: -moz-linear-gradient(top,  #D7D7D7,  #BBB);
+  filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#D7D7D7', endColorstr='#BBBBBB');
   -webkit-border-radius: 10em; 
   -moz-border-radius: 10em;
   border-radius: 10em;
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
   -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
   box-shadow: 0 1px 2px rgba(0,0,0,.2);
-  text-shadow: 0 -1px 0 rgba(0,0,0,.9);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
 }
 input[type=reset]:hover, input[type=submit]:hover, button:hover {
-  background: #333;
-  color: #fff;
+  background: #D7D7D7;
+  /*color: #fff;*/
 }
 
 /************************************************************************************
@@ -523,7 +523,7 @@ MAIN NAVIGATION
   display: block;
   padding: 14px 15px;
   text-decoration: none;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.9);
+  text-shadow: 0 -1px 0 rgba(0,0,0,.7);
 }
 /* main level link :hover */
 #main-nav a:hover {
@@ -1078,6 +1078,7 @@ POST NAVIGATION
 COMMENTS
 *************************************************************************************/
 .commentwrap {
+  border: 1px solid #e5e5e5;
   margin: 40px 0 20px;
   padding: 3% 4%;
   position: relative;
